@@ -1,0 +1,84 @@
+/*==========
+menu css start
+==============*/
+
+.menu{
+     .img{
+          margin-top: 30px;
+     }
+     .navbar{
+         .nav-item{
+             .nav-link{
+                line-height: 80px;
+                font-family: var(--ff2);
+                font-size: 16px;
+                margin-right: 5px;
+                position: relative;
+                  p{
+                      transition: 0.4s;
+                      &:hover{
+                          color: var(--brand);
+                      }
+                    &:hover::before {
+                        width: 23px;
+                    }
+                    &:hover::after {
+                        width: 13px;
+                    }
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        left: 8px;
+                        top: 61px;
+                        width: 0px;
+                        height: 1px;
+                        background-color: var(--brand);
+                        transition: 0.4s;
+                     
+                    }
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        left: 8px;
+                        top: 64px;
+                        width: 0px;
+                        height: 1px;
+                        background-color: var(--brand);
+                        transition: 0.2s;
+                    }
+                  }
+             }
+         }
+
+     }
+     .menu-item{
+        ul{
+           
+            li{
+                line-height: 110px;
+                #bag{
+                    color: var(--brand);
+                }
+                i{
+                    color: #444444;
+                    font-size: 15px;
+                    &:last-child{
+                        margin-left: 35px;
+                      
+                    }
+                }
+               
+                span{
+                    color: var(--brand);
+                    font-family: var(--ff2);
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+        }
+     }
+}
+
+/*==========
+menu css END
+==============*/

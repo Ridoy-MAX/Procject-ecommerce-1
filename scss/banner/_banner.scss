@@ -1,0 +1,195 @@
+/*==========
+Banner css start
+==============*/
+.banner{
+    /* bg-s1*/
+    .banner-slider{
+        .next-arrow{
+            position: absolute;
+            bottom: 50px;
+            left: 51%;
+              z-index: 1111111;
+              color: white;
+              border: 1px solid white;
+              font-size: 25px;
+              padding: 4px 10px;
+              transition: 0.3s;
+              cursor: pointer;
+              &:hover{
+                  background-color: var(--brand);
+                  border: 1px solid var(--brand);
+              }
+        }
+        .previous-arrow{
+            position: absolute;
+            bottom: 50px;
+            left: 48%;
+            z-index: 1111111;
+            color: white;
+            border: 1px solid white;
+            font-size: 25px;
+            padding: 4px 10px;
+            transition: 0.3s;
+            cursor: pointer;
+            &:hover{
+                background-color: var(--brand);
+                border: 1px solid var(--brand);
+            }
+
+        }
+        .bg-1{
+           background: url(../../imgs/bg1.png);
+           background-size: cover;
+           background-repeat: no-repeat;
+           position: relative;
+             height: 600px;
+             z-index: -11;
+           .overlay{
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.616);
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+           }
+        }
+        .bg-2{
+            background: url(../../imgs/bg2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+              height: 600px;
+              z-index: -11;
+              .overlay{
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.616);
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+           }
+        }
+        .bg-3{
+            background: url(../../imgs/bg-3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+              height: 600px;
+              z-index: -11;
+              .overlay{
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.616);
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+           }
+        }
+        .banner-item{
+               .banner-details{
+                   justify-content: center;
+                   margin-top: 23%;
+                   z-index: 11111;
+                   h1{
+                       font-size: 70px;
+                       color: var(--brand);
+                       font-family: var(--ff2);
+                   }
+                   h2{
+                       font-size: 40px;
+                       font-family: var(--ff2);
+                       color: white;
+                       text-transform: uppercase;
+                       font-weight: normal;
+                   }
+                   p{
+                       font-size: 14px;
+                       font-family: var(--ff1);
+                       color: #e8e9e9;
+                       line-height: 24px;
+                       padding-right: 21px;
+                   }
+                   .banner-button{
+                       .btn1{
+                           display: block;
+                           width: 100px;
+                           height: 40px;
+                           background-color: var(--brand);
+                           color: white;
+                           border-radius: 3px;
+                           line-height: 40px;
+                           text-transform: uppercase;
+                           font-size: 14px;
+                           font-family: var(--ff2);
+                           text-align: center;
+
+                       }
+                       .btn2{
+                           display: block;
+                           width: 100px;
+                           height: 40px;
+                           border: 1px solid rgb(255, 255, 255);
+                           background-color: transparent;
+                           color: white;
+                           border-radius: 3px;
+                           line-height: 40px;
+                           text-transform: uppercase;
+                           font-size: 14px;
+                           font-family: var(--ff2);
+                           text-align: center;
+                          margin-left: 30px;
+                          transition: all linear 0.4s;
+                          &:hover{
+                              background-color: var(--brand);
+                              border: 1px solid var(--brand);
+                          }
+                       }
+                   }
+               }
+        }
+    }
+     /* bg-s2*/
+     .banner-s2{
+         background-color: #f1f1f1;
+         .banner-extra{
+             margin-top: 30px;
+             .logo{
+                 justify-content: center;
+                 img{
+                     width: 10%;
+                     height: 10%;
+
+                 }
+                 h2{
+                  font-size: 24px;
+                  font-family: var(--ff1);
+                  color: #444444;
+                  margin-left: 15px;
+                  transition: 0.3s;
+                  cursor: pointer;
+                  &:hover{
+                      color: var(--brand);
+                  }
+                 }
+             }
+             .details{
+                 margin-top: 30px;
+                 p{
+                    font-size: 14px;
+                    font-family: var(--ff1);
+                    text-align: center;
+                    color: #7d7d7d;
+                    line-height: 24px;
+                   padding-right: 5px;
+                 }
+             }
+         }
+     }
+}
+
+/*==========
+Banner CSS END
+==============*/

@@ -1,0 +1,61 @@
+/*==========
+heading css start
+==============*/
+.heading{
+    background-color: var(--heading-color);
+    .heading-left{
+    
+      ul{
+        margin-bottom: 0 !important;
+          li{
+              &:first-child{
+                  a{
+                      padding-left: 0;
+                  }
+              }
+              &:last-child{
+                  a{
+                      border-right:0 ;
+                  }
+              }
+            a{
+                display: block;
+                font-size: 13px;
+               font-family: var(--ff1);
+               line-height: 50px;
+               padding: 0 20px;
+               border-right:1px solid rgb(255, 255, 255) ;
+               color: #b6b6b6;
+            }
+          }
+      }
+    }
+
+    .heading-right{
+    
+      ul{
+        margin-bottom: 0 !important;
+          li{
+            &:last-child{
+                a{
+                    padding-right: 0;
+                    border-right:0 ;
+                }
+            }
+            a{
+                display: block;
+                font-size: 13px;
+               font-family: var(--ff1);
+               line-height: 50px;
+               padding: 0 20px;
+               border-right:1px solid rgb(255, 255, 255) ;
+               color: #b6b6b6;
+            }
+          }
+      }
+    }
+}
+
+/*==========
+heading css end
+==============*/

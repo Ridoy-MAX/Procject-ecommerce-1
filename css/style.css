@@ -1,0 +1,335 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*=========
+common css end
+==========*/
+/*==========
+variable css start
+==============*/
+:root {
+  --ff1: 'Open Sans', sans-serif;
+  --ff2: 'Raleway', sans-serif;
+  --brand: #de4644;
+  --heading-color: #444444;
+  --hd-p-color: #222222;
+  --footer-color: #353535;
+  --footer-hd-color: #555555;
+  --p-color: #666666;
+}
+
+/*==========
+variable css end
+==============*/
+/*==========
+heading css start
+==============*/
+.heading {
+  background-color: var(--heading-color);
+}
+.heading .heading-left ul {
+  margin-bottom: 0 !important;
+}
+.heading .heading-left ul li:first-child a {
+  padding-left: 0;
+}
+.heading .heading-left ul li:last-child a {
+  border-right: 0;
+}
+.heading .heading-left ul li a {
+  display: block;
+  font-size: 13px;
+  font-family: var(--ff1);
+  line-height: 50px;
+  padding: 0 20px;
+  border-right: 1px solid white;
+  color: #b6b6b6;
+}
+.heading .heading-right ul {
+  margin-bottom: 0 !important;
+}
+.heading .heading-right ul li:last-child a {
+  padding-right: 0;
+  border-right: 0;
+}
+.heading .heading-right ul li a {
+  display: block;
+  font-size: 13px;
+  font-family: var(--ff1);
+  line-height: 50px;
+  padding: 0 20px;
+  border-right: 1px solid white;
+  color: #b6b6b6;
+}
+
+/*==========
+heading css end
+==============*/
+/*==========
+menu css start
+==============*/
+.menu .img {
+  margin-top: 30px;
+}
+.menu .navbar .nav-item .nav-link {
+  line-height: 80px;
+  font-family: var(--ff2);
+  font-size: 16px;
+  margin-right: 5px;
+  position: relative;
+}
+.menu .navbar .nav-item .nav-link p {
+  transition: 0.4s;
+}
+.menu .navbar .nav-item .nav-link p:hover {
+  color: var(--brand);
+}
+.menu .navbar .nav-item .nav-link p:hover::before {
+  width: 23px;
+}
+.menu .navbar .nav-item .nav-link p:hover::after {
+  width: 13px;
+}
+.menu .navbar .nav-item .nav-link p::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 61px;
+  width: 0px;
+  height: 1px;
+  background-color: var(--brand);
+  transition: 0.4s;
+}
+.menu .navbar .nav-item .nav-link p::after {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 64px;
+  width: 0px;
+  height: 1px;
+  background-color: var(--brand);
+  transition: 0.2s;
+}
+.menu .menu-item ul li {
+  line-height: 110px;
+}
+.menu .menu-item ul li #bag {
+  color: var(--brand);
+}
+.menu .menu-item ul li i {
+  color: #444444;
+  font-size: 15px;
+}
+.menu .menu-item ul li i:last-child {
+  margin-left: 35px;
+}
+.menu .menu-item ul li span {
+  color: var(--brand);
+  font-family: var(--ff2);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/*==========
+menu css END
+==============*/
+/*==========
+Banner css start
+==============*/
+.banner {
+  /* bg-s1*/
+  /* bg-s2*/
+}
+.banner .banner-slider .next-arrow {
+  position: absolute;
+  bottom: 50px;
+  left: 51%;
+  z-index: 1111111;
+  color: white;
+  border: 1px solid white;
+  font-size: 25px;
+  padding: 4px 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.banner .banner-slider .next-arrow:hover {
+  background-color: var(--brand);
+  border: 1px solid var(--brand);
+}
+.banner .banner-slider .previous-arrow {
+  position: absolute;
+  bottom: 50px;
+  left: 48%;
+  z-index: 1111111;
+  color: white;
+  border: 1px solid white;
+  font-size: 25px;
+  padding: 4px 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.banner .banner-slider .previous-arrow:hover {
+  background-color: var(--brand);
+  border: 1px solid var(--brand);
+}
+.banner .banner-slider .bg-1 {
+  background: url(../../imgs/bg1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: -11;
+}
+.banner .banner-slider .bg-1 .overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.616);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.banner .banner-slider .bg-2 {
+  background: url(../../imgs/bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: -11;
+}
+.banner .banner-slider .bg-2 .overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.616);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.banner .banner-slider .bg-3 {
+  background: url(../../imgs/bg-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  z-index: -11;
+}
+.banner .banner-slider .bg-3 .overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.616);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.banner .banner-slider .banner-item .banner-details {
+  justify-content: center;
+  margin-top: 23%;
+  z-index: 11111;
+}
+.banner .banner-slider .banner-item .banner-details h1 {
+  font-size: 70px;
+  color: var(--brand);
+  font-family: var(--ff2);
+}
+.banner .banner-slider .banner-item .banner-details h2 {
+  font-size: 40px;
+  font-family: var(--ff2);
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.banner .banner-slider .banner-item .banner-details p {
+  font-size: 14px;
+  font-family: var(--ff1);
+  color: #e8e9e9;
+  line-height: 24px;
+  padding-right: 21px;
+}
+.banner .banner-slider .banner-item .banner-details .banner-button .btn1 {
+  display: block;
+  width: 100px;
+  height: 40px;
+  background-color: var(--brand);
+  color: white;
+  border-radius: 3px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: var(--ff2);
+  text-align: center;
+}
+.banner .banner-slider .banner-item .banner-details .banner-button .btn2 {
+  display: block;
+  width: 100px;
+  height: 40px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 3px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: var(--ff2);
+  text-align: center;
+  margin-left: 30px;
+  transition: all linear 0.4s;
+}
+.banner .banner-slider .banner-item .banner-details .banner-button .btn2:hover {
+  background-color: var(--brand);
+  border: 1px solid var(--brand);
+}
+.banner .banner-s2 {
+  background-color: #f1f1f1;
+}
+.banner .banner-s2 .banner-extra {
+  margin-top: 30px;
+}
+.banner .banner-s2 .banner-extra .logo {
+  justify-content: center;
+}
+.banner .banner-s2 .banner-extra .logo img {
+  width: 10%;
+  height: 10%;
+}
+.banner .banner-s2 .banner-extra .logo h2 {
+  font-size: 24px;
+  font-family: var(--ff1);
+  color: #444444;
+  margin-left: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.banner .banner-s2 .banner-extra .logo h2:hover {
+  color: var(--brand);
+}
+.banner .banner-s2 .banner-extra .details {
+  margin-top: 30px;
+}
+.banner .banner-s2 .banner-extra .details p {
+  font-size: 14px;
+  font-family: var(--ff1);
+  text-align: center;
+  color: #7d7d7d;
+  line-height: 24px;
+  padding-right: 5px;
+}
+
+/*==========
+Banner CSS END
+==============*/
