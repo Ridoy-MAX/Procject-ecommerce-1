@@ -2,7 +2,7 @@
 Banner css start
 ==============*/
 .banner{
-    /* bg-s1*/
+    /*============= bg-s1==============*/
     .banner-slider{
         .next-arrow{
             position: absolute;
@@ -151,7 +151,7 @@ Banner css start
                }
         }
     }
-     /* bg-s2*/
+     /*========= bg-s2==========*/
      .banner-s2{
          background-color: #f1f1f1;
          .banner-extra{
@@ -189,7 +189,60 @@ Banner css start
          }
      }
 }
-
+   /*========= bg-s3==========*/
+.banner-s3{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .banner-s3-bg{
+        position: relative;
+        img{
+           width: 100%;
+        }
+        .overlay{
+            position: absolute;
+            bottom: 20px;
+            left: 10%;
+            width: 80%;
+            height: 150px;
+            background-color: rgba(0, 0, 0, 0.8);
+            h1{
+              font-size: 36px;
+              font-family: var(--ff2);
+              color: white;
+              font-weight: 500;
+              text-align: center;
+            }
+            h2{
+                font-size: 24px;
+                font-family: var(--ff2);
+                color: white;
+                font-weight: 500;
+                text-align: center;
+            }
+            a{
+                align-items: center;
+                display: block;
+                width: 104px;
+                height: 45px;
+                border: 1px solid white;
+                background-color: transparent;
+                color: white;
+                border-radius: 3px;
+                line-height: 40px;
+                text-transform: uppercase;
+                font-size: 14px;
+                font-family: var(--ff2);
+                text-align: center;
+                margin-left: 35%;
+                transition: all linear 0.4s;
+                &:hover{
+                    background-color: var(--brand);
+                    border: 1px solid var(--brand);
+                }
+            }
+        }
+    }
+}
 /*==========
 Banner CSS END
 ==============*/
