@@ -82,8 +82,18 @@ heading css end
 /*==========
 menu css start
 ==============*/
-.menu .img {
-  margin-top: 30px;
+.menu .navbar i {
+  color: #565656;
+}
+.menu .navbar #bag {
+  color: var(--brand);
+  margin-left: 35px;
+}
+.menu .navbar #bag span {
+  font-family: var(--ff2);
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 5px;
 }
 .menu .navbar .nav-item .nav-link {
   line-height: 80px;
@@ -123,25 +133,6 @@ menu css start
   height: 1px;
   background-color: var(--brand);
   transition: 0.2s;
-}
-.menu .menu-item ul li {
-  line-height: 110px;
-}
-.menu .menu-item ul li #bag {
-  color: var(--brand);
-}
-.menu .menu-item ul li i {
-  color: #444444;
-  font-size: 15px;
-}
-.menu .menu-item ul li i:last-child {
-  margin-left: 35px;
-}
-.menu .menu-item ul li span {
-  color: var(--brand);
-  font-family: var(--ff2);
-  font-size: 16px;
-  font-weight: 500;
 }
 
 /*==========
