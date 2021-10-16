@@ -584,8 +584,145 @@ new-product css start
   text-align: center;
   font-size: 16px;
   font-family: var(--ff2);
-  font-weight: normal;
+  font-weight: 500;
   color: #222222;
   text-transform: capitalize;
   margin-top: 10px;
+}
+
+/*================
+new-product css END
+===================*/
+/*================
+Latest-product css END
+===================*/
+.Latest-Product {
+  margin-bottom: 100px;
+}
+.Latest-Product .heading-bg h1 {
+  font-size: 40px;
+  font-family: var(--ff2);
+  font-weight: 500;
+  color: #222222;
+  position: relative;
+  margin-bottom: 53px;
+}
+.Latest-Product .heading-bg h1::before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 62px;
+  width: 170px;
+  height: 1px;
+  background: var(--brand);
+}
+.Latest-Product .heading-bg h1::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 62px;
+  width: 85px;
+  height: 1px;
+  background: var(--brand);
+}
+.Latest-Product .new-product-banner .next-arrow {
+  position: absolute;
+  bottom: -85px;
+  left: 51%;
+  z-index: 1111111;
+  color: black;
+  border: 1px solid black;
+  font-size: 25px;
+  padding: 4px 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.Latest-Product .new-product-banner .next-arrow:hover {
+  color: white;
+  background-color: var(--brand);
+  border: 1px solid var(--brand);
+}
+.Latest-Product .new-product-banner .previous-arrow {
+  position: absolute;
+  bottom: -85px;
+  right: 50%;
+  z-index: 1111111;
+  color: black;
+  border: 1px solid black;
+  font-size: 25px;
+  padding: 4px 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.Latest-Product .new-product-banner .previous-arrow:hover {
+  color: white;
+  background-color: var(--brand);
+  border: 1px solid var(--brand);
+}
+.Latest-Product .new-product-banner .banner-item .selected-product {
+  width: 300px;
+}
+.Latest-Product .new-product-banner .banner-item .selected-product .product-bg {
+  position: relative;
+  overflow: hidden;
+}
+.Latest-Product .new-product-banner .banner-item .selected-product .product-bg .details {
+  margin-top: 12px;
+}
+.Latest-Product .new-product-banner .banner-item .selected-product .product-bg .details h2 {
+  font-size: 16px;
+  font-family: var(--ff2);
+  font-weight: normal;
+}
+.Latest-Product .new-product-banner .banner-item .selected-product .product-bg .details h3 {
+  font-size: 16px;
+  font-family: var(--ff2);
+  font-weight: normal;
+}
+.Latest-Product .new-product-banner .banner-item .selected-product .product-bg .rating a i {
+  color: var(--brand);
+  font-size: 16px;
+}
+.Latest-Product .new-product-banner .banner-item .selected-product .product-bg .img {
+  height: 350px;
+  position: relative;
+  cursor: pointer;
+}
+.Latest-Product .new-product-banner .banner-item .selected-product .product-bg .img:hover .overlay {
+  right: 0;
+}
+.Latest-Product .new-product-banner .banner-item .selected-product .product-bg .img .overlay {
+  transition: 0.4s;
+  position: absolute;
+  top: 0;
+  right: -100px;
+  width: 32%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.774);
+}
+.Latest-Product .new-product-banner .banner-item .selected-product .product-bg .img .overlay ul {
+  margin-top: 72px;
+}
+.Latest-Product .new-product-banner .banner-item .selected-product .product-bg .img .overlay ul li {
+  height: 50px;
+  width: 50px;
+  border: 1px solid white;
+  border-radius: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+.Latest-Product .new-product-banner .banner-item .selected-product .product-bg .img .overlay ul li:hover {
+  background-color: var(--brand);
+  border: 1px solid var(--brand);
+}
+.Latest-Product .new-product-banner .banner-item .selected-product .product-bg .img .overlay ul li i {
+  font-size: 26px;
+  text-align: center;
+  line-height: 50px;
+}
+.Latest-Product .new-product-banner .banner-item .selected-product .product-bg .img img {
+  height: 100%;
+  width: 100%;
 }
