@@ -508,3 +508,84 @@ Featured-Products start
   height: 100%;
   width: 100%;
 }
+
+/*==========
+new-product css start
+==============*/
+.New-Product {
+  background-color: #f1f1f1;
+  margin-top: 100px;
+  margin-bottom: 90px;
+  padding-bottom: 80px;
+}
+.New-Product .img {
+  position: relative;
+}
+.New-Product .img img {
+  position: absolute;
+  top: 58px;
+  right: 73px;
+}
+.New-Product .new-product-details {
+  margin-top: 58px;
+}
+.New-Product .new-product-details h1 {
+  font-size: 20px;
+  font-family: var(--ff2);
+  font-weight: 500;
+  color: black;
+  text-transform: uppercase;
+}
+.New-Product .new-product-details h2 {
+  font-size: 40px;
+  font-family: var(--ff2);
+  font-weight: 500;
+  color: var(--brand);
+  text-transform: uppercase;
+}
+.New-Product .new-product-details p {
+  font-size: 14px;
+  font-family: var(--ff1);
+  font-weight: normal;
+  text-transform: capitalize;
+  color: #444444;
+  line-height: 24px;
+}
+.New-Product .new-product-details h3 {
+  font-size: 20px;
+  font-family: var(--ff2);
+  font-weight: 500;
+  color: black;
+  text-transform: uppercase;
+  line-height: 24px;
+}
+.New-Product .lance-date {
+  margin-top: 18px;
+}
+.New-Product .lance-date .syotimer__body {
+  display: flex;
+}
+.New-Product .lance-date .syotimer__body .syotimer-cell {
+  width: 80px;
+  height: 80px;
+  border: 1px solid  #222222;
+  border-radius: 2px;
+  margin-right: 30px;
+}
+.New-Product .lance-date .syotimer__body .syotimer-cell .syotimer-cell__value {
+  text-align: center;
+  font-size: 20px;
+  font-family: var(--ff2);
+  font-weight: normal;
+  color: #222222;
+  text-transform: capitalize;
+}
+.New-Product .lance-date .syotimer__body .syotimer-cell .syotimer-cell__unit {
+  text-align: center;
+  font-size: 16px;
+  font-family: var(--ff2);
+  font-weight: normal;
+  color: #222222;
+  text-transform: capitalize;
+  margin-top: 10px;
+}

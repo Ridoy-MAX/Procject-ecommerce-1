@@ -36,4 +36,14 @@ $(document).ready(function(){
     
         });
 
+         /* Periodic Timer. Period is equal 10 days */
+         $('#periodic-timer_period_days').syotimer({
+          date: new Date(2050, 18, 19, 20, 30),
+          layout: "dhms",
+          periodic: true,
+          periodInterval: 10,
+          periodUnit: "d",
+        });
+          /* Periodic Timer. Period is equal 10 days */
+
 });      
