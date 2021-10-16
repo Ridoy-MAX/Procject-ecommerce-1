@@ -25,7 +25,6 @@ variable css start
   --ff1: 'Open Sans', sans-serif;
   --ff2: 'Raleway', sans-serif;
   --brand: #de4644;
-  --heading-color: #444444;
   --hd-p-color: #222222;
   --footer-color: #353535;
   --footer-hd-color: #555555;
@@ -726,3 +725,150 @@ Latest-product css END
   height: 100%;
   width: 100%;
 }
+
+/*==========
+footer css start
+==============*/
+/*==========
+footer top
+==============*/
+.footer-top {
+  background-color: #353535;
+}
+.footer-top .footer-details .details p {
+  font-size: 14px;
+  font-family: var(--ff1);
+  font-weight: normal;
+  line-height: 24px;
+  color: #dddddd;
+  padding-right: 8px;
+}
+.footer-top .footer-details .details p:first-of-type {
+  margin-top: 28px;
+  margin-bottom: 20px;
+}
+.footer-top .footer-contact .heading h2 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--ff2);
+  color: #dddddd;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.footer-top .footer-contact .details ul {
+  margin-top: 45px;
+}
+.footer-top .footer-contact .details ul li i {
+  color: #dddddd;
+  font-size: 14px;
+}
+.footer-top .footer-contact .details ul li p {
+  font-size: 14px;
+  font-family: var(--ff1);
+  font-weight: normal;
+  line-height: 20px;
+  color: #dddddd;
+  margin-left: 28px;
+}
+.footer-top .footer-my-acount .heading h2 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--ff2);
+  color: #dddddd;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.footer-top .footer-my-acount .details ul {
+  margin-top: 45px;
+}
+.footer-top .footer-my-acount .details ul li a {
+  font-size: 14px;
+  font-family: var(--ff1);
+  font-weight: normal;
+  line-height: 28px;
+  color: #dddddd;
+  margin-left: 0px;
+}
+.footer-top .footer-sing-up .heading h2 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--ff2);
+  color: #dddddd;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.footer-top .footer-sing-up .details {
+  margin-top: 35px;
+}
+.footer-top .footer-sing-up .details form .form-control {
+  background-color: #353535 !important;
+  color: #fdfdfd !important;
+  font-family: var(--ff1);
+  font-weight: initial;
+  border-right-color: var(--brand) !important;
+  width: 90% !important;
+}
+.footer-top .footer-sing-up .details form .btn-outline-success {
+  color: #fff;
+  border-color: var(--brand);
+  background-color: var(--brand) !important;
+  padding: 7px 24px !important;
+}
+.footer-top .footer-sing-up .details h2 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--ff2);
+  color: #dddddd;
+  text-transform: uppercase;
+  padding-top: 25px;
+}
+.footer-top .footer-sing-up .details ul {
+  margin-top: 15px;
+}
+.footer-top .footer-sing-up .details ul li {
+  margin-right: 30px;
+}
+.footer-top .footer-sing-up .details ul li a {
+  display: block;
+  height: 42px;
+  width: 42px;
+  border-radius: 100%;
+  background-color: white;
+  text-align: center;
+  transition: 0.4s;
+}
+.footer-top .footer-sing-up .details ul li a:hover {
+  background-color: var(--brand);
+}
+.footer-top .footer-sing-up .details ul li a:hover i {
+  color: white;
+}
+.footer-top .footer-sing-up .details ul li a i {
+  color: black;
+  font-size: 20px;
+  line-height: 42px;
+}
+
+/*==========
+footer botom
+==============*/
+.footer-botom {
+  background-color: #555555;
+}
+.footer-botom .footer-botom-details a {
+  font-size: 14px;
+  line-height: 57px;
+  font-family: var(--ff1);
+  color: white;
+  padding-bottom: 0 !important;
+}
+.footer-botom .footer-botom-details a span {
+  color: var(--brand);
+}
+.footer-botom .footer-botom-details img {
+  margin-top: 9px;
+}
+
+/*============
+footer css END
+==============*/

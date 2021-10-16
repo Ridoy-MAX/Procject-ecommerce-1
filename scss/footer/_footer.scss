@@ -1,0 +1,188 @@
+/*==========
+footer css start
+==============*/
+
+/*==========
+footer top
+==============*/
+.footer-top{
+    background-color: #353535;
+    .footer-details{
+        .img{
+            img{
+
+            }
+        }
+        .details{
+           p{
+               font-size: 14px;
+               font-family: var(--ff1);
+               font-weight: normal;
+               line-height: 24px;
+               color: #dddddd;
+               padding-right: 8px;
+                
+               &:first-of-type{
+                   margin-top: 28px;
+                   margin-bottom: 20px;
+               }
+           }
+        }
+    }
+
+    .footer-contact{
+        .heading{
+               h2{
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: var(--ff2);
+                    color: #dddddd;
+                    text-transform: uppercase;
+                    margin-top: 20px;
+               }
+        }
+        .details{
+            ul{
+                margin-top: 45px;
+                li{
+                    i{
+                        color: #dddddd;
+                        font-size: 14px;
+                    }
+                    p{
+                        font-size: 14px;
+                        font-family: var(--ff1);
+                        font-weight: normal;
+                        line-height: 20px;
+                        color: #dddddd;
+                        margin-left: 28px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .footer-my-acount{
+        .heading{
+            h2{
+                font-size: 16px;
+                font-weight: 500;
+                font-family: var(--ff2);
+                color: #dddddd;
+                text-transform: uppercase;
+                margin-top: 20px;
+            }
+        }
+        .details{
+            ul{
+                margin-top: 45px;
+                li{
+                    a{
+                        font-size: 14px;
+                        font-family: var(--ff1);
+                        font-weight: normal;
+                        line-height: 28px;
+                        color: #dddddd;
+                        margin-left: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-sing-up{
+        .heading{
+            h2{
+                font-size: 16px;
+                font-weight: 500;
+                font-family: var(--ff2);
+                color: #dddddd;
+                text-transform: uppercase;
+                margin-top: 20px;
+            }
+        }
+        .details{
+            margin-top: 35px;
+            form{
+                .form-control{
+                    background-color: #353535 !important;
+                    color: #fdfdfd !important;
+                    font-family: var(--ff1);
+                    font-weight: initial;
+                    border-right-color:var(--brand) !important ;
+                    width: 90% !important;
+                    
+                }
+                .btn-outline-success {
+                    color: #fff;
+                    border-color: var(--brand);
+                    background-color: var(--brand) !important;
+                    padding: 7px 24px !important;
+                }
+            }
+            h2{
+                font-size: 16px;
+                font-weight: 500;
+                font-family: var(--ff2);
+                color: #dddddd;
+                text-transform: uppercase;
+                padding-top: 25px;
+            }
+            ul{
+                margin-top: 15px;
+                li{
+                    margin-right: 30px;
+                    a{
+                        display: block;
+                        height: 42px;
+                        width: 42px;
+                        border-radius: 100%;
+                        background-color: white;
+                        text-align: center;
+                        transition: 0.4s;
+                        &:hover{
+                            background-color: var(--brand);
+                            i{
+                                color: white;
+
+                            }
+                        }
+                        i{
+                         color: black;
+                         font-size: 20px;
+                         line-height: 42px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*==========
+footer botom
+==============*/
+.footer-botom{
+    background-color: #555555;
+   
+    .footer-botom-details{
+        a{
+            font-size: 14px;
+            line-height: 57px;
+            font-family: var(--ff1);
+            color: white;
+            padding-bottom:0 !important ;
+            span{
+                color: var(--brand);
+            }
+        }
+        img{
+               margin-top: 9px;
+        }
+    }
+}
+
+/*============
+footer css END
+==============*/
