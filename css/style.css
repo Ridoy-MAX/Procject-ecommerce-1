@@ -27,7 +27,6 @@ variable css start
   --brand: #de4644;
   --hd-p-color: #222222;
   --footer-color: #353535;
-  --footer-hd-color: #555555;
   --p-color: #666666;
 }
 
@@ -37,19 +36,19 @@ variable css end
 /*==========
 heading css start
 ==============*/
-.heading {
-  background-color: var(--heading-color);
+.heading-top {
+  background-color: #444444;
 }
-.heading .heading-left ul {
+.heading-top .heading-left ul {
   margin-bottom: 0 !important;
 }
-.heading .heading-left ul li:first-child a {
+.heading-top .heading-left ul li:first-child a {
   padding-left: 0;
 }
-.heading .heading-left ul li:last-child a {
+.heading-top .heading-left ul li:last-child a {
   border-right: 0;
 }
-.heading .heading-left ul li a {
+.heading-top .heading-left ul li a {
   display: block;
   font-size: 13px;
   font-family: var(--ff1);
@@ -58,14 +57,14 @@ heading css start
   border-right: 1px solid white;
   color: #b6b6b6;
 }
-.heading .heading-right ul {
+.heading-top .heading-right ul {
   margin-bottom: 0 !important;
 }
-.heading .heading-right ul li:last-child a {
+.heading-top .heading-right ul li:last-child a {
   padding-right: 0;
   border-right: 0;
 }
-.heading .heading-right ul li a {
+.heading-top .heading-right ul li a {
   display: block;
   font-size: 13px;
   font-family: var(--ff1);
@@ -724,6 +723,270 @@ Latest-product css END
 .Latest-Product .new-product-banner .banner-item .selected-product .product-bg .img img {
   height: 100%;
   width: 100%;
+}
+
+/*==============
+Testimonial css start
+==============*/
+.Testimonial {
+  margin-top: 148px;
+  margin-bottom: 100px;
+}
+.Testimonial .testi-heading h1 {
+  font-size: 40px;
+  font-family: var(--ff2);
+  font-weight: 500;
+  color: #222222;
+  position: relative;
+  margin-bottom: 53px;
+  text-align: center;
+}
+.Testimonial .testi-heading h1::before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 57px;
+  width: 170px;
+  height: 1px;
+  background: var(--brand);
+}
+.Testimonial .testi-heading h1::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 57px;
+  width: 85px;
+  height: 1px;
+  background: var(--brand);
+}
+.Testimonial .testi-bg {
+  background: url(../../imgs/tm-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+.Testimonial .testi-bg .testi-banner {
+  padding-top: 60px;
+}
+.Testimonial .testi-bg .testi-banner .next-arrow {
+  position: absolute;
+  bottom: -85px;
+  left: 51%;
+  z-index: 1111111;
+  color: white;
+  border: 1px solid white;
+  font-size: 25px;
+  padding: 4px 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.Testimonial .testi-bg .testi-banner .next-arrow:hover {
+  color: white;
+  background-color: var(--brand);
+  border: 1px solid var(--brand);
+}
+.Testimonial .testi-bg .testi-banner .previous-arrow {
+  position: absolute;
+  bottom: -85px;
+  right: 50%;
+  z-index: 1111111;
+  color: white;
+  border: 1px solid white;
+  font-size: 25px;
+  padding: 4px 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.Testimonial .testi-bg .testi-banner .previous-arrow:hover {
+  color: white;
+  background-color: var(--brand);
+  border: 1px solid var(--brand);
+}
+.Testimonial .testi-bg .testi-banner .banner-item .testi-img {
+  height: 150px;
+  width: 186px;
+  border-radius: 100%;
+  background: url(../../imgs/tm-person2.png) !important;
+  background-size: cover;
+}
+.Testimonial .testi-bg .testi-banner .banner-item .img {
+  height: 150px;
+  width: 484px;
+  border-radius: 100%;
+  background: url(../../imgs/tm-person1.png);
+  background-size: cover;
+}
+.Testimonial .testi-bg .testi-banner .banner-item .details {
+  margin-left: 30px;
+}
+.Testimonial .testi-bg .testi-banner .banner-item .details h2 {
+  font-size: 20px;
+  font-family: var(--ff2);
+  font-weight: 500;
+  color: white;
+  line-height: 24px;
+}
+.Testimonial .testi-bg .testi-banner .banner-item .details h3 {
+  font-size: 16px;
+  font-family: var(--ff2);
+  font-weight: 500;
+  color: white;
+}
+.Testimonial .testi-bg .testi-banner .banner-item .details p {
+  font-size: 14px;
+  font-family: var(--ff1);
+  font-weight: 400;
+  color: #bbbbbb;
+  line-height: 24px;
+  padding-right: 81px;
+}
+.Testimonial .testi-bg .testi-banner .banner-item .details img {
+  margin-left: 53%;
+  margin-top: 15px;
+}
+
+/*==============
+Testimonial css end
+==============*/
+/*==========
+our blog css start
+==============*/
+.our-blog {
+  margin-bottom: 100px;
+}
+.our-blog .blog-heading h1 {
+  font-size: 40px;
+  font-family: var(--ff2);
+  font-weight: 500;
+  color: #222222;
+  position: relative;
+  margin-bottom: 53px;
+  text-align: center;
+}
+.our-blog .blog-heading h1::before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 78px;
+  width: 120px;
+  height: 1px;
+  background: var(--brand);
+}
+.our-blog .blog-heading h1::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 78px;
+  width: 55px;
+  height: 1px;
+  background: var(--brand);
+}
+.our-blog .blog .blog-bg1 {
+  background: url(../../imgs/blog-img1.png);
+  height: 338px;
+  background-size: cover;
+}
+.our-blog .blog .blog-bg2 {
+  background: url(../../imgs/blog-img2.png);
+  height: 338px;
+  background-size: cover;
+}
+.our-blog .blog .blog-bg3 {
+  background: url(../../imgs/blog-img3.png);
+  height: 338px;
+  background-size: cover;
+}
+.our-blog .blog .blog-img:hover {
+  transition: 0.4s;
+}
+.our-blog .blog .blog-img:hover .overlay {
+  opacity: 1;
+}
+.our-blog .blog .blog-img .overlay {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.712);
+  height: 100%;
+  transition: 0.5s;
+  position: relative;
+}
+.our-blog .blog .blog-img .overlay .time {
+  color: #dddddd;
+  font-size: 14px;
+  font-family: var(--ff1);
+  padding-left: 25px;
+}
+.our-blog .blog .blog-img .overlay .link a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  border: 1px solid white;
+  text-align: center;
+  transform: translateY(300%);
+  transition: 0.4s;
+}
+.our-blog .blog .blog-img .overlay .link a:hover {
+  background: var(--brand);
+  border: 1px solid var(--brand);
+}
+.our-blog .blog .blog-img .overlay .link a i {
+  color: #dddddd;
+  line-height: 40px;
+}
+.our-blog .blog .blog-img .overlay ul {
+  position: absolute;
+  bottom: 0;
+}
+.our-blog .blog .blog-img .overlay ul li {
+  padding-right: 25px;
+}
+.our-blog .blog .blog-img .overlay ul li a {
+  color: #dddddd;
+  font-size: 14px;
+  font-family: var(--ff1);
+}
+.our-blog .blog .blog-img .overlay ul li a i {
+  color: #dddddd;
+}
+.our-blog .blog .blog-details h1 {
+  font-size: 20px;
+  font-family: var(--ff2);
+  color: black;
+  font-weight: 500;
+  text-align: left;
+  line-height: 24px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.our-blog .blog .blog-details p {
+  font-size: 14px;
+  font-family: var(--ff1);
+  color: #828282;
+  font-weight: normal;
+  text-align: left;
+  line-height: 24px;
+  padding-right: 46px;
+}
+.our-blog .blog .blog-details a {
+  font-size: 16px;
+  font-family: var(--ff2);
+  color: black;
+  font-weight: 500;
+  text-align: center;
+  line-height: 24px;
+  text-align: left;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+.our-blog .blog .blog-details a:hover {
+  color: var(--brand);
+}
+.our-blog .blog .blog-details a:hover i {
+  margin-left: 8px;
+}
+.our-blog .blog .blog-details a i {
+  transition: 0.4s;
 }
 
 /*==========

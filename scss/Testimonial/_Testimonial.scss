@@ -1,0 +1,139 @@
+/*==============
+Testimonial css start
+==============*/
+.Testimonial{
+    margin-top: 148px;
+    margin-bottom: 100px;
+            .testi-heading{
+                h1{
+                    font-size: 40px;
+                    font-family: var(--ff2);
+                    font-weight: 500;
+                    color: #222222;
+                    position: relative;
+                    margin-bottom: 53px;
+                    text-align: center;
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        bottom: -10px;
+                        left: 57px;
+                        width: 170px;
+                        height: 1px;
+                        background: var(--brand);
+                    }
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        bottom: -5px;
+                        left: 57px;
+                        width: 85px;
+                        height: 1px;
+                        background: var(--brand);
+                    }
+                }
+            }
+  
+           .testi-bg{
+            background: url(../../imgs/tm-bg.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 400px;
+              
+               .testi-banner{
+                   padding-top: 60px;
+
+                      
+
+                   .next-arrow {
+                    position: absolute;
+                    bottom: -85px;
+                    left: 51%;
+                    z-index: 1111111;
+                    color: rgb(255, 255, 255);
+                    border: 1px solid rgb(255, 255, 255);
+                    font-size: 25px;
+                    padding: 4px 10px;
+                    transition: 0.3s;
+                    cursor: pointer;
+                    &:hover{
+                        color: rgb(255, 255, 255);
+                        background-color: var(--brand);
+                    border: 1px solid var(--brand);
+                    }
+                 }
+                 .previous-arrow {
+                    position: absolute;
+                    bottom: -85px;
+                    right: 50%;
+                    z-index: 1111111;
+                    color: rgb(255, 255, 255);
+                    border: 1px solid rgb(255, 255, 255);
+                    font-size: 25px;
+                    padding: 4px 10px;
+                    transition: 0.3s;
+                    cursor: pointer;
+                    &:hover{
+                        color: rgb(255, 255, 255);
+                        background-color: var(--brand);
+                    border: 1px solid var(--brand);
+                   } 
+                }
+
+                      
+
+
+                   
+                   .banner-item{
+                       .testi-img{
+                        height: 150px;
+                        width: 186px;
+                        border-radius: 100%;
+                        background: url(../../imgs/tm-person2.png) !important;
+                        background-size: cover;
+                       }
+                       .img{
+                         height: 150px;
+                         width: 484px;
+                         border-radius: 100%;
+                         background: url(../../imgs/tm-person1.png);
+                         background-size: cover;
+                       
+                       }
+                       .details{
+                           margin-left: 30px;
+                           h2{
+                             font-size: 20px;
+                             font-family: var(--ff2);
+                             font-weight: 500;
+                             color: white;
+                             line-height: 24px;
+                           }
+                           h3{
+                            font-size: 16px;
+                            font-family: var(--ff2);
+                            font-weight: 500;
+                            color: white;
+                           }
+                           p{
+                            font-size: 14px;
+                            font-family: var(--ff1);
+                            font-weight: 400;
+                            color: #bbbbbb;
+                            line-height: 24px;
+                            padding-right: 81px;
+                            
+                           }
+                           img{
+                               margin-left: 53%;
+                               margin-top: 15px;
+                           }
+                       }
+                   }
+               }
+           }
+}
+/*==============
+Testimonial css end
+==============*/
