@@ -142,11 +142,13 @@ $('.new-product-banner').slick({
         autoplay: true,
         autoplaySpeed: 1800, 
         dots: false,
-        slidesToShow: 4,
+        slidesToShow: 5,
         slidesToScroll: 1,
+        centerMode:true,
+       centerPadding:'0px',
         arrows:true,
-        prevArrow:'<i class="fas fa-chevron-left  previous-arrow"></i>',
-        nextArrow:'<i class="fas fa-chevron-right  next-arrow"></i>',
+        prevArrow:'<i class="fas fa-chevron-right  previous-arrow"></i>',
+        nextArrow:'<i class="fas fa-chevron-left  next-arrow"></i>',
         responsive: [
           {
             breakpoint: 992,

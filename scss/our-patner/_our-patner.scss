@@ -1,10 +1,56 @@
 .our-patner{
+    margin-bottom: 100px;
     .patner-slider{
+        .slick-slide{
+            display: flex;
+            justify-content: center;
+           padding-bottom: 20px;
+        }
+        .slick-center{
+           img{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+           }
+        }
+        .next-arrow {
+            position: absolute;
+            bottom: 58px;
+            left:-4%;
+            z-index: 1111111;
+            color: rgb(0, 0, 0);
+            border: 1px solid rgb(0, 0, 0);
+            font-size: 25px;
+            padding: 4px 10px;
+            transition: 0.3s;
+            cursor: pointer;
+            &:hover{
+                color: rgb(255, 255, 255);
+                background-color: var(--brand);
+            border: 1px solid var(--brand);
+            }
+        }
+         .previous-arrow {
+            position: absolute;
+            bottom: 58px;
+            right: -4%;
+            z-index: 1111111;
+            color: rgb(0, 0, 0);
+            border: 1px solid rgb(0, 0, 0);
+            font-size: 25px;
+            padding: 4px 10px;
+            transition: 0.3s;
+            cursor: pointer;
+            &:hover{
+                color: rgb(255, 255, 255);
+                background-color: var(--brand);
+            border: 1px solid var(--brand);
+            }
+        } 
         .banner-item{
+            
          .patner-name{
-             width: 210px;
+             
              img{
-                 width: 210px;
+                
              }
          }
         }

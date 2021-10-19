@@ -24,6 +24,9 @@ About css
            text-transform: capitalize;
            font-weight: 400;
            padding-bottom: 62px;
+           i{
+               font-size: 13px;
+           }
            span{
                color: var(--brand);
            }

@@ -1025,6 +1025,9 @@ About css
   font-weight: 400;
   padding-bottom: 62px;
 }
+.about-us .about h3 i {
+  font-size: 13px;
+}
 .about-us .about h3 span {
   color: var(--brand);
 }
@@ -1182,11 +1185,50 @@ About counter  END
   width: 100%;
 }
 
-.our-patner .patner-slider .banner-item .patner-name {
-  width: 210px;
+.our-patner {
+  margin-bottom: 100px;
 }
-.our-patner .patner-slider .banner-item .patner-name img {
-  width: 210px;
+.our-patner .patner-slider .slick-slide {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.our-patner .patner-slider .slick-center img {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.our-patner .patner-slider .next-arrow {
+  position: absolute;
+  bottom: 58px;
+  left: -4%;
+  z-index: 1111111;
+  color: black;
+  border: 1px solid black;
+  font-size: 25px;
+  padding: 4px 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.our-patner .patner-slider .next-arrow:hover {
+  color: white;
+  background-color: var(--brand);
+  border: 1px solid var(--brand);
+}
+.our-patner .patner-slider .previous-arrow {
+  position: absolute;
+  bottom: 58px;
+  right: -4%;
+  z-index: 1111111;
+  color: black;
+  border: 1px solid black;
+  font-size: 25px;
+  padding: 4px 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.our-patner .patner-slider .previous-arrow:hover {
+  color: white;
+  background-color: var(--brand);
+  border: 1px solid var(--brand);
 }
 
 /*==========
