@@ -55,7 +55,7 @@ Banner css start
            }
         }
         .bg-2{
-            background: url(../../imgs/bg2.jpg);
+            background: url(../imgs/bg1.png);
             background-size: cover;
             background-repeat: no-repeat;
             position: relative;
@@ -72,7 +72,7 @@ Banner css start
            }
         }
         .bg-3{
-            background: url(../../imgs/bg-3.jpg);
+            background: url(../imgs/bg-3.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             position: relative;
@@ -154,8 +154,10 @@ Banner css start
      /*========= bg-s2==========*/
      .banner-s2{
          background-color: #f1f1f1;
+        
          .banner-extra{
              margin-top: 30px;
+         
              .logo{
                  justify-content: center;
                  img{

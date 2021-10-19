@@ -193,7 +193,7 @@ Banner css start
   z-index: -1;
 }
 .banner .banner-slider .bg-2 {
-  background: url(../../imgs/bg2.jpg);
+  background: url(../imgs/bg1.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -210,7 +210,7 @@ Banner css start
   z-index: -1;
 }
 .banner .banner-slider .bg-3 {
-  background: url(../../imgs/bg-3.jpg);
+  background: url(../imgs/bg-3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -760,7 +760,7 @@ Testimonial css start
   background: var(--brand);
 }
 .Testimonial .testi-bg {
-  background: url(../../imgs/tm-bg.png);
+  background: url(../imgs/tm-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -807,15 +807,19 @@ Testimonial css start
   height: 150px;
   width: 186px;
   border-radius: 100%;
-  background: url(../../imgs/tm-person2.png) !important;
+  background: url(../imgs/tm-person2.png) !important;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .Testimonial .testi-bg .testi-banner .banner-item .img {
   height: 150px;
   width: 484px;
   border-radius: 100%;
-  background: url(../../imgs/tm-person1.png);
+  background: url(../imgs/tm-person1.png);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .Testimonial .testi-bg .testi-banner .banner-item .details {
   margin-left: 30px;
@@ -883,17 +887,17 @@ our blog css start
   background: var(--brand);
 }
 .our-blog .blog .blog-bg1 {
-  background: url(../../imgs/blog-img1.png);
+  background: url(../imgs/blog-img1.png);
   height: 338px;
   background-size: cover;
 }
 .our-blog .blog .blog-bg2 {
-  background: url(../../imgs/blog-img2.png);
+  background: url(../imgs/blog-img2.png);
   height: 338px;
   background-size: cover;
 }
 .our-blog .blog .blog-bg3 {
-  background: url(../../imgs/blog-img3.png);
+  background: url(../imgs/blog-img3.png);
   height: 338px;
   background-size: cover;
 }
@@ -989,6 +993,66 @@ our blog css start
   transition: 0.4s;
 }
 
+/*===============
+our blog css END
+=================*/
+/*===============
+About css 
+=================*/
+.about-us {
+  background: url(../imgs/about-us.png);
+  height: 200px;
+  margin-bottom: 100px;
+}
+.about-us .about {
+  background-color: rgba(0, 0, 0, 0.705);
+  height: 100%;
+}
+.about-us .about h2 {
+  font-size: 24px;
+  font-family: var(--ff2);
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 80px;
+}
+.about-us .about h3 {
+  font-size: 18px;
+  font-family: var(--ff2);
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding-bottom: 62px;
+}
+.about-us .about h3 span {
+  color: var(--brand);
+}
+
+.about-details .col-lg-12 .bg-img {
+  position: relative;
+}
+.about-details .col-lg-12 .bg-img .p {
+  background-color: black;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  position: absolute;
+  top: 43px;
+  right: 9%;
+  width: 570px;
+}
+.about-details .col-lg-12 .bg-img .p p {
+  font-size: 14px;
+  font-family: var(--ff1);
+  font-weight: normal;
+  line-height: 24px;
+  color: #dddddd;
+  padding: 0px 30px;
+}
+
+/*===============
+About End
+=================*/
 /*==========
 footer css start
 ==============*/
@@ -997,6 +1061,7 @@ footer top
 ==============*/
 .footer-top {
   background-color: #353535;
+  padding-bottom: 60px;
 }
 .footer-top .footer-details .details p {
   font-size: 14px;
