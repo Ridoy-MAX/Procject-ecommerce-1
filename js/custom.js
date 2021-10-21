@@ -178,5 +178,24 @@ $('.new-product-banner').slick({
         });
          //about patner slider END;
 
+          //Integration with fancybox plugin
+          $('#xzoom-fancy').bind('click', function(event) {
+            var xzoom = $(this).data('xzoom');
+            xzoom.closezoom();
+            $.fancybox.open(xzoom.gallery().cgallery, {padding: 0, helpers: {overlay: {locked: false}}});
+            event.preventDefault();
+        });
+       
+        //Integration with magnific popup plugin
+        /* calling script */
+        $(".xzoom").xzoom({tint: '#333', Xoffset: 15});
+        //Example: Integration with FancyBox plugin
+        $('.xzoom').bind('click', function() {
+          var xzoom = $(this).data('xzoom');
+          xzoom.closezoom();
+          $.fancybox.open(xzoom.gallery().cgallery, {padding: 0, helpers: {overlay: {locked: false}}});
+          event.preventDefault();
+        });
+
 
 });      

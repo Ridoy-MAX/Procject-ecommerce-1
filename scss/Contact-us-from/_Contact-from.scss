@@ -1,0 +1,120 @@
+/*==========
+contact from css start
+==============*/
+.contact-us{
+    margin-bottom: 100px;
+    .contact-from{
+        form{
+                .form-msg{
+                    position: relative !important;
+                    
+                    .massage{
+                        height: 150px !important;
+                       
+                        
+                    }
+                    .btn{
+                        position: absolute;
+                        width: 80px;
+                        height: 80px;
+                        clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+                        bottom: 15px;
+                        right: 12px;
+                        background-color: var(--brand);
+                        border-radius: 0px !important;
+                        i{
+                            position: absolute;
+                            color: white;
+                            font-size: 25px;
+                        }
+                        }
+                }
+                .form-control{
+                    border-radius: 0 !important;
+                    border: 1px solid black;
+                    margin-bottom: 15px;
+                    height: 30px;
+                    font-size: 14px;
+                    font-family: var(--ff1);
+
+
+                }
+               
+              
+        }
+        .heading{
+           h2{
+            font-size: 20px;
+            font-weight: 500;
+            font-family: var(--ff2);
+            color: #222222;
+            
+            margin-top: 20px;
+            padding-bottom: 25px;
+           }
+        }
+    }
+    .contact-with-us{
+          .heading{
+             h2{
+                font-size: 20px;
+                font-weight: 500;
+                font-family: var(--ff2);
+                color: #222222;
+                text-transform: capitalize;
+                margin-top: 20px;
+                padding-bottom: 19px;
+             }
+          }
+          .details{
+              p{
+                  font-family: var(--ff1);
+                  color: #444444;
+                  font-size: 14px;
+                  font-weight: normal;
+                  padding-right: 30px;
+                  line-height: 24px;
+
+              }
+            ul{
+                margin-top: 24px;
+                li{
+                    line-height: 20px !important;
+                   a{
+                       line-height: 20px;
+                    i{
+                        color: var(--brand);
+                        font-size: 14px;
+                        line-height: 30px;
+                    }
+                    p{
+                        font-size: 14px;
+                        font-family: var(--ff1);
+                        font-weight: normal;
+                        line-height: 26px;
+                        color: #444444;
+                        margin-left: 28px;
+                    }
+                   }
+                }
+            }
+          } 
+    }
+}
+
+/*==========
+contact from css END
+==============*/
+
+
+/*==========
+contact map css 
+==============*/
+
+.Contact-MAP{
+    margin-bottom: 100px;
+    height: 300px;
+}
+/*==========
+contact map css end
+==============*/
