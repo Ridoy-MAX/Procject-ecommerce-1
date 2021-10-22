@@ -1,0 +1,251 @@
+/*==========
+product css START
+==============*/
+
+.product{
+    margin-bottom: 80px;
+    .container{
+        .row{
+            /*===fancy =====*/
+            .col-lg-5{
+
+            }
+            /*===fancy =====*/
+
+            /*===about product start=====*/
+            .col-lg-7{
+                .product-details{
+                    .heading{
+                        h2{
+                           font-size: 20px;
+                           font-family: var(--ff2);
+                           font-weight: 500;
+                           color: #222222;
+                        }
+                    }
+                    .rating{
+                        a{
+                           i{
+                               color: var(--brand);
+                           }
+                        }
+                        p{
+                            font-size: 16px;
+                           font-family: var(--ff2);
+                           font-weight: 500;
+                           color: #222222;
+                        }
+                    }
+                    .price-details{
+                        h3{
+                            font-size: 16px;
+                            font-family: var(--ff2);
+                            font-weight: 500;
+                            color: #222222;
+                        }
+                        p{
+                            font-size: 14px;
+                            font-family: var(--ff1);
+                            font-weight: 500;
+                            color: #777777;
+                            padding-top: 25px;
+                            padding-right: 50px;
+                        }
+                    }
+                    .product-size-color{
+                              width: 200px;
+                        p{
+                            font-size: 16px;
+                            font-family: var(--ff2);
+                            font-weight: 500;
+                            color: #222222;
+                            width: 70px;
+                            margin-bottom: 0;
+                            line-height: 24px;
+                        }
+                        h4{
+                            font-size: 14px;
+                            font-family: var(--ff2);
+                            font-weight: 400;
+                            color: #444444;
+                            margin-bottom: 0;
+                            line-height: 24px;
+                            padding-left: 20px;
+                            i{
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                    .logo{
+                        margin-top: 55px;
+                        margin-bottom: 40px;
+                        ul{
+                            padding-left: 0px;
+                            li{
+                                height: 50px;
+                                width: 50px;
+                                text-align: center;
+                                border: 1px solid black;
+                                margin-right: 20px;
+                                cursor: pointer;
+                                &:hover{
+                                    background-color: var(--brand);
+                                    border: 1px solid var(--brand);
+                                    a{
+                                        color: white;
+                                    }
+                                }
+                                a{
+                                   color: black;
+                                   transition: 0.4s;
+                                   &:hover{
+                                      color: white;
+                                   }
+                                   i{
+                                       line-height: 50px;
+                                       font-size: 26px;
+                                   }
+                                }
+                            }
+                        }
+                    }
+                    .pd-code{
+                        ul{
+                            padding-left: 0px;
+                            li{
+                                p{
+                                    font-size: 16px;
+                                    font-family: var(--ff2);
+                                    font-weight: 500;
+                                    color: #222222;
+                                    width: 70px;
+                                    margin-bottom: 0;
+                                    line-height: 24px;
+                                }
+                                h3{
+                                    font-size: 14px;
+                            font-family: var(--ff2);
+                            font-weight: 400;
+                            color: #444444;
+                            margin-bottom: 0;
+                            line-height: 24px;
+                            padding-left: 20px;
+                                }
+                            }
+                        }
+                    }
+                    .social-icon{
+                        margin-bottom: 40px;
+                        margin-top: 44px;
+                        h2{
+                            font-size: 16px;
+                            font-family: var(--ff2);
+                            font-weight: 500;
+                            color: #222222;
+                            width: 70px;
+                            margin-bottom: 0;
+                            line-height: 24px;
+
+                        }
+                        ul{
+                            padding-left: 0px;
+                            margin-top: 22px;
+                            li{
+                                width: 40px;
+                                height: 40px;
+                                border: 1px solid black;
+                                border-radius: 100px;
+                                text-align: center;
+                                margin-right: 10px;
+                                cursor: pointer;
+                                transition: 0.4s;
+                                &:hover{
+                                    background-color: var(--brand);
+                                    border: 1px solid var(--brand);
+                                    a{
+                                        color: white;
+                                    }
+                                } 
+
+                                a{
+                                    color: black;
+                                 i{
+                                    line-height: 40px;
+                                 }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+              /*===about product End=====*/
+        }
+
+
+        /*===review-details start=====*/ 
+        .row{
+            .review-details{
+                .nav{
+                    border: transparent;
+                    .nav-item{
+                        border-right: 1x solid black !important;
+                        
+                         .nav-link{
+                                  font-size: 20px;
+                                  font-family: var(--ff2);
+                                  font-weight: 500;
+                                  color: black;
+                                  
+                                  text-align: left !important;
+                                  padding-right: 15px;
+                                  padding-left: 0px;
+                                  padding-top: 0px;
+                                  padding-bottom: 0px;
+                         }
+                         #home-tab{
+                            border-right: 1x solid black !important;
+                         }
+                         #profile-tab{
+                            padding-left: 15px;
+                            
+                         }
+                         .active{
+                           border-color :transparent;
+                           color: var(--brand);
+                         }
+                    }
+                }
+                .tab-content{
+                    margin-top: 35px;
+                    #home{
+                      p{
+                        font-size: 14px;
+                        font-family: var(--ff1);
+                        font-weight: 400;
+                        line-height: 24px;
+                        color: #444444;
+                        padding-right: 50px;
+                     
+                      }
+                    }
+                    #profile{
+                        p{
+                            font-size: 14px;
+                        font-family: var(--ff1);
+                        font-weight: 400;
+                        line-height: 24px;
+                        color: #444444;
+                        padding-right: 50px;
+                        }
+                    }
+                }
+            }
+        }
+        /*===review-details start=====*/ 
+
+    }
+}
+
+/*==========
+product css START
+==============*/
