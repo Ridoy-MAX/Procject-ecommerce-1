@@ -1335,6 +1335,225 @@ contact map css
 contact map css end
 ==============*/
 /*==========
+shopping chart css 
+==============*/
+.Shopping-Cart {
+  margin-bottom: 80px;
+  /*=====product-color===== */
+  /*=====price-Quantity===== */
+}
+.Shopping-Cart .product .product-color {
+  height: 57px;
+}
+.Shopping-Cart .product .product-color h2 {
+  font-size: 20px;
+  font-family: var(--ff2);
+  font-weight: normal;
+  color: #222222;
+  line-height: 57px;
+  padding-left: 10px;
+}
+.Shopping-Cart .product .product-1 {
+  height: 111px;
+}
+.Shopping-Cart .product .product-1 .img {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.Shopping-Cart .product .product-1 .details h3 {
+  margin-top: 24px;
+  font-size: 16px;
+  font-family: var(--ff2);
+  font-weight: 500;
+  color: #222222;
+  line-height: 15px;
+  padding-left: 10px;
+}
+.Shopping-Cart .product .product-1 .details p {
+  font-size: 14px;
+  font-family: var(--ff2);
+  font-weight: normal;
+  color: #444444;
+  padding-left: 10px;
+}
+.Shopping-Cart .product .product-1 .rating {
+  padding-left: 10px;
+}
+.Shopping-Cart .product .product-1 .rating a i {
+  font-size: 14px;
+  color: var(--brand);
+}
+.Shopping-Cart .price-Quantity .price-product .heading {
+  height: 57px;
+}
+.Shopping-Cart .price-Quantity .price-product .heading h2 {
+  font-size: 20px;
+  font-family: var(--ff2);
+  font-weight: normal;
+  color: #222222;
+  line-height: 57px;
+  text-align: center;
+}
+.Shopping-Cart .price-Quantity .price-product .price {
+  height: 111px;
+}
+.Shopping-Cart .price-Quantity .price-product .price h3 {
+  font-size: 16px;
+  font-family: var(--ff2);
+  font-weight: normal;
+  color: #222222;
+  line-height: 111px;
+  text-align: center;
+}
+.Shopping-Cart .price-Quantity .Quantity .heading {
+  height: 57px;
+}
+.Shopping-Cart .price-Quantity .Quantity .heading h2 {
+  font-size: 20px;
+  font-family: var(--ff2);
+  font-weight: normal;
+  color: #222222;
+  line-height: 57px;
+  text-align: center;
+}
+.Shopping-Cart .price-Quantity .Quantity .quantity1 {
+  height: 111px;
+}
+
+/*=====price-remove ===== */
+.price-remove .price .heading {
+  height: 57px;
+}
+.price-remove .price .heading h2 {
+  font-size: 20px;
+  font-family: var(--ff2);
+  font-weight: normal;
+  color: #222222;
+  line-height: 57px;
+  text-align: center;
+}
+.price-remove .price .price1 {
+  height: 111px;
+}
+.price-remove .price .price1 h3 {
+  font-size: 16px;
+  font-family: var(--ff2);
+  font-weight: normal;
+  color: #222222;
+  line-height: 111px;
+  text-align: center;
+}
+.price-remove .remove .heading {
+  height: 57px;
+}
+.price-remove .remove .heading h2 {
+  font-size: 20px;
+  font-family: var(--ff2);
+  font-weight: normal;
+  color: #222222;
+  line-height: 57px;
+  text-align: center;
+}
+.price-remove .remove .remove-item {
+  height: 111px;
+  text-align: center;
+}
+.price-remove .remove .remove-item a {
+  line-height: 111px;
+  text-align: center;
+}
+.price-remove .remove .remove-item a i {
+  font-size: 24px;
+  text-align: center;
+  color: #444444;
+  transition: 0.3s;
+}
+.price-remove .remove .remove-item a i:hover {
+  color: var(--brand);
+}
+
+/*=====cupon ===== */
+.copun {
+  height: 77px;
+}
+.copun h2 {
+  font-size: 20px;
+  font-family: var(--ff2);
+  font-weight: normal;
+  color: #222222;
+}
+.copun form {
+  height: 40px;
+}
+.copun form .btn {
+  background-color: var(--brand);
+  color: white;
+  border: none;
+  width: 100px;
+}
+
+.total {
+  margin-top: 50px;
+}
+.total ul {
+  padding-left: 0px !important;
+}
+.total ul .grand-total {
+  border-top: 1px solid var(--brand);
+}
+.total ul li {
+  height: 56px;
+}
+.total ul li h4 {
+  font-size: 20px;
+  font-family: var(--ff2);
+  font-weight: 500;
+  color: #222222;
+  line-height: 56px;
+  padding-left: 10px;
+}
+.total ul li p {
+  font-size: 16px;
+  font-family: var(--ff2);
+  font-weight: 500;
+  color: #444444;
+  line-height: 56px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.button .btn1 {
+  display: block;
+  width: 140px;
+  height: 55px;
+  background-color: white;
+  color: black;
+  border-radius: 0px;
+  line-height: 55px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-family: var(--ff2);
+  border: 1px solid black;
+  text-align: center;
+}
+.button .btn2 {
+  display: block;
+  width: 140px;
+  height: 55px;
+  background-color: var(--brand);
+  color: white;
+  border-radius: 0px;
+  line-height: 55px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-family: var(--ff2);
+  text-align: center;
+}
+
+/*==========
+shopping chart css 
+==============*/
+/*==========
 footer css start
 ==============*/
 /*==========

@@ -1,0 +1,251 @@
+/*==========
+shopping chart css 
+==============*/
+.Shopping-Cart{
+    margin-bottom: 80px;
+    /*=====product-color===== */
+    .product{
+        .product-color{
+            height: 57px;
+            h2{
+              font-size: 20px;
+              font-family: var(--ff2);
+              font-weight: normal;
+              color: #222222;
+              line-height: 57px;
+              padding-left: 10px;
+            }
+        }
+        .product-1{
+            height: 111px;
+            .img{
+                margin-top: 20px;
+                margin-left: 10px;
+                img{
+
+                }
+            }
+            .details{
+                h3{
+                    margin-top: 24px;
+                    font-size: 16px;
+                    font-family: var(--ff2);
+                    font-weight: 500;
+                    color: #222222;
+                   line-height: 15px;
+                    padding-left: 10px;
+                }
+                p{
+                    
+                    font-size: 14px;
+                    font-family: var(--ff2);
+                    font-weight: normal;
+                    color: #444444;
+                   
+                    padding-left: 10px;
+                }
+            }
+            .rating{
+                padding-left: 10px;
+                a{
+                    
+                    i{
+                       font-size: 14px;
+                       color: var(--brand);
+                       
+                    }
+                }
+             
+            }
+
+        }
+    }
+/*=====price-Quantity===== */
+    .price-Quantity{
+              .price-product{
+                        .heading{
+                            height: 57px;
+                            h2{
+                                font-size: 20px;
+                                font-family: var(--ff2);
+                                font-weight: normal;
+                                color: #222222;
+                                line-height: 57px;
+                                text-align: center;
+                            }
+                        }
+                        .price{
+                            height: 111px;
+                            h3{
+                                font-size: 16px;
+                                font-family: var(--ff2);
+                                font-weight: normal;
+                                color: #222222;
+                                line-height: 111px;
+                                text-align: center;
+                            }
+                        }
+                      }
+                .Quantity{
+                    
+                    .heading{
+                        height: 57px;
+                        h2{
+                            font-size: 20px;
+                                font-family: var(--ff2);
+                                font-weight: normal;
+                                color: #222222;
+                                line-height: 57px;
+                                text-align: center;
+                        }
+                    }
+                    .quantity1{
+                        height: 111px;
+                    }
+                }      
+    }
+
+}
+/*=====price-remove ===== */
+.price-remove{
+    .price{
+        .heading{
+            height: 57px;
+            h2{
+                font-size: 20px;
+                font-family: var(--ff2);
+                font-weight: normal;
+                color: #222222;
+                line-height: 57px;
+                text-align: center;
+            }
+        }
+        .price1{
+            height: 111px;
+            h3{
+                font-size: 16px;
+                font-family: var(--ff2);
+                font-weight: normal;
+                color: #222222;
+                line-height: 111px;
+                text-align: center;
+            }
+        }
+    }
+    .remove{
+        .heading{
+            height: 57px;
+            h2{
+                font-size: 20px;
+                font-family: var(--ff2);
+                font-weight: normal;
+                color: #222222;
+                line-height: 57px;
+                text-align: center;
+            }
+        }
+        .remove-item{
+            height: 111px;
+            text-align: center;
+            a{
+                line-height: 111px;
+                text-align: center;
+               
+                i{
+                    font-size: 24px;
+                    text-align: center;
+                    color: #444444;
+                       transition: 0.3s;
+                       &:hover{
+                        color: var(--brand);
+                    }
+                }
+                
+            }
+        }
+    }
+} 
+/*=====cupon ===== */
+.copun{
+    height: 77px;
+    h2{
+        font-size: 20px;
+        font-family: var(--ff2);
+        font-weight: normal;
+        color: #222222;
+        
+    }
+    form{
+        height: 40px;
+         .btn{
+             background-color: var(--brand);
+             color: white;
+             border: none;
+             width: 100px;
+         }
+    }
+}
+.total{
+    margin-top: 50px;
+    ul{
+        padding-left: 0px !important;
+        .grand-total{
+            border-top:1px solid var(--brand) ;
+        }
+        li{
+            height: 56px;
+            h4{
+                font-size: 20px;
+                font-family: var(--ff2);
+                font-weight: 500;
+                color: #222222;
+                line-height: 56px;
+                padding-left: 10px;
+            }
+            p{
+                font-size: 16px;
+                font-family: var(--ff2);
+                font-weight: 500;
+                color: #444444;
+                line-height: 56px;
+                padding-left: 10px;
+                padding-right: 10px;
+                
+            }
+        }
+    }
+}
+.button{
+    .btn1{
+        display: block;
+        width: 140px;
+        height: 55px;
+        background-color: white;
+        color: rgb(0, 0, 0);
+        border-radius: 0px;
+        line-height: 55px;
+        text-transform: capitalize;
+        font-size: 16px;
+        font-family: var(--ff2);
+        border: 1px solid black;
+        text-align: center;
+    }
+    .btn2{
+        display: block;
+        width: 140px;
+        height: 55px;
+        background-color:var(--brand);
+        color: rgb(255, 255, 255);
+        border-radius: 0px;
+        line-height: 55px;
+        text-transform: capitalize;
+        font-size: 16px;
+        font-family: var(--ff2);
+     
+        text-align: center;
+    }
+}
+
+/*==========
+shopping chart css 
+==============*/
