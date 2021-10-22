@@ -5,9 +5,10 @@ contact from css start
     margin-bottom: 100px;
     .contact-from{
         form{
+            
                 .form-msg{
-                    position: relative !important;
-                    
+                   
+                    position: relative;
                     .massage{
                         height: 150px !important;
                        
@@ -18,8 +19,8 @@ contact from css start
                         width: 80px;
                         height: 80px;
                         clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-                        bottom: 15px;
-                        right: 12px;
+                        bottom: 0px;
+                        right: 0px;
                         background-color: var(--brand);
                         border-radius: 0px !important;
                         i{

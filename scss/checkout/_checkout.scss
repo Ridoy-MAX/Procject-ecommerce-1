@@ -1,0 +1,178 @@
+/*==========
+Cheack out css START
+==============*/
+
+.cheackout{
+    margin-bottom: 100px;
+    .container{
+        .row{
+            /*=====bolling details=====*/
+            .col-lg-8{
+                .billing-details{
+                   .heading{
+                       margin-bottom: 30px;
+                       
+                     
+                       h2{
+                          font-size: 20px;
+                          font-family: var(--ff2);
+                          font-weight: 500;
+                          color: var(--brand);
+                          padding-right: 30px;
+                          border-right: 1px solid black;
+                          margin-bottom: 30px;
+                          
+                       }
+                       h3{
+                        font-size: 20px;
+                        font-family: var(--ff2);
+                        font-weight: 500;
+                        color: #222222;
+                        padding-left: 30px;
+                        
+                        span{
+                            font-size: 14px;
+                            font-family: var(--ff1);
+                            font-weight: 400;
+                            color: #777777; 
+                            
+                        }
+                       }
+                   }
+                   form{
+                     .row{
+                         .col{
+                             position: relative;
+
+                            .form-control{
+                                border-radius: 0px !important;
+                                margin-bottom: 10px;
+                                height: 40px;
+                           }
+                           .country{
+                                 z-index: -1;
+                           }
+                           .town{
+    
+                           }
+                           .note{
+                               height: 150px !important;
+                           }
+                           i{
+                             position: absolute;
+                             right: 20px;
+                             line-height: 40px;
+                             z-index: 111111;
+                             font-size: 20px;
+                             color: #777777;
+                           }
+                         }
+                     }
+                   }
+
+               
+                }
+            }
+          /*=====chart-total=====*/
+            .col-lg-4{
+                 .cart-total{
+                     ul{
+                         padding-left: 0 !important;
+                         .grand-total{
+                            border-top:1px solid var(--brand) ;
+                         }
+                         li{
+                             line-height: 66px;
+                             padding-left: 10px;
+                             padding-right: 10px;
+                             h4{
+                                 font-size: 20px;
+                                 font-family: var(--ff2);
+                                 font-weight: 500;
+                                 color: #222222;
+                                 line-height: 55px;
+                                 margin-bottom: 0;
+                             }
+                             p{
+                                font-size: 16px;
+                                 font-family: var(--ff2);
+                                 font-weight: 500;
+                                 color: #444444;
+                                 line-height: 55px;
+                                 margin-bottom: 0;
+                             }
+                         }
+                     }
+                 }
+                 .payments{
+                     margin-top: 30px;
+                     margin-bottom: 20px;
+                     h2{
+                              font-size: 20px;
+                              font-weight: 500;
+                              font-family: var(--ff2);
+                              color: #222222;
+                              line-height: 63px;
+                              margin-bottom: 0;
+                     }
+                 }
+                 .bank-transfer{
+                      a{
+                        font-size: 16px;
+                        font-weight: 500;
+                        font-family: var(--ff2);
+                        color: #444444;
+                          i{
+                            padding-right: 5px;
+                          }
+                      }
+                      p{
+                        font-size: 14px;
+                        font-weight: 400;
+                        font-family: var(--ff1);
+                        color: #777777;
+                        padding-right: 10px;
+                        line-height: 24px;
+                      }
+                      ul{
+                          padding-left: 0;
+                          li{
+                            margin-bottom: 10px;
+                              a{
+                                font-size: 14px;
+                                font-weight: 500;
+                                font-family: var(--ff2);
+                                color: #444444;
+                                i{
+                                    padding-right: 5px;
+                                }
+                              }
+                          }
+                      }
+                      .btn1{
+                          width: 130px;
+                          height: 53px;
+                          background-color: var(--brand);
+                          color: white;
+                          font-size: 16px;
+                          font-family: var(--ff2);
+                          display: block;
+                          text-align: center;
+                          line-height: 53px;
+                          cursor: pointer;
+
+                      }
+                 }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+/*==========
+Cheack out css END
+==============*/

@@ -1244,7 +1244,7 @@ contact from css start
   margin-bottom: 100px;
 }
 .contact-us .contact-from form .form-msg {
-  position: relative !important;
+  position: relative;
 }
 .contact-us .contact-from form .form-msg .massage {
   height: 150px !important;
@@ -1254,8 +1254,8 @@ contact from css start
   width: 80px;
   height: 80px;
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-  bottom: 15px;
-  right: 12px;
+  bottom: 0px;
+  right: 0px;
   background-color: var(--brand);
   border-radius: 0px !important;
 }
@@ -1552,6 +1552,150 @@ shopping chart css
 
 /*==========
 shopping chart css 
+==============*/
+/*==========
+Cheack out css START
+==============*/
+.cheackout {
+  margin-bottom: 100px;
+}
+.cheackout .container .row {
+  /*=====bolling details=====*/
+  /*=====chart-total=====*/
+}
+.cheackout .container .row .col-lg-8 .billing-details .heading {
+  margin-bottom: 30px;
+}
+.cheackout .container .row .col-lg-8 .billing-details .heading h2 {
+  font-size: 20px;
+  font-family: var(--ff2);
+  font-weight: 500;
+  color: var(--brand);
+  padding-right: 30px;
+  border-right: 1px solid black;
+  margin-bottom: 30px;
+}
+.cheackout .container .row .col-lg-8 .billing-details .heading h3 {
+  font-size: 20px;
+  font-family: var(--ff2);
+  font-weight: 500;
+  color: #222222;
+  padding-left: 30px;
+}
+.cheackout .container .row .col-lg-8 .billing-details .heading h3 span {
+  font-size: 14px;
+  font-family: var(--ff1);
+  font-weight: 400;
+  color: #777777;
+}
+.cheackout .container .row .col-lg-8 .billing-details form .row .col {
+  position: relative;
+}
+.cheackout .container .row .col-lg-8 .billing-details form .row .col .form-control {
+  border-radius: 0px !important;
+  margin-bottom: 10px;
+  height: 40px;
+}
+.cheackout .container .row .col-lg-8 .billing-details form .row .col .country {
+  z-index: -1;
+}
+.cheackout .container .row .col-lg-8 .billing-details form .row .col .note {
+  height: 150px !important;
+}
+.cheackout .container .row .col-lg-8 .billing-details form .row .col i {
+  position: absolute;
+  right: 20px;
+  line-height: 40px;
+  z-index: 111111;
+  font-size: 20px;
+  color: #777777;
+}
+.cheackout .container .row .col-lg-4 .cart-total ul {
+  padding-left: 0 !important;
+}
+.cheackout .container .row .col-lg-4 .cart-total ul .grand-total {
+  border-top: 1px solid var(--brand);
+}
+.cheackout .container .row .col-lg-4 .cart-total ul li {
+  line-height: 66px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.cheackout .container .row .col-lg-4 .cart-total ul li h4 {
+  font-size: 20px;
+  font-family: var(--ff2);
+  font-weight: 500;
+  color: #222222;
+  line-height: 55px;
+  margin-bottom: 0;
+}
+.cheackout .container .row .col-lg-4 .cart-total ul li p {
+  font-size: 16px;
+  font-family: var(--ff2);
+  font-weight: 500;
+  color: #444444;
+  line-height: 55px;
+  margin-bottom: 0;
+}
+.cheackout .container .row .col-lg-4 .payments {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.cheackout .container .row .col-lg-4 .payments h2 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: var(--ff2);
+  color: #222222;
+  line-height: 63px;
+  margin-bottom: 0;
+}
+.cheackout .container .row .col-lg-4 .bank-transfer a {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--ff2);
+  color: #444444;
+}
+.cheackout .container .row .col-lg-4 .bank-transfer a i {
+  padding-right: 5px;
+}
+.cheackout .container .row .col-lg-4 .bank-transfer p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--ff1);
+  color: #777777;
+  padding-right: 10px;
+  line-height: 24px;
+}
+.cheackout .container .row .col-lg-4 .bank-transfer ul {
+  padding-left: 0;
+}
+.cheackout .container .row .col-lg-4 .bank-transfer ul li {
+  margin-bottom: 10px;
+}
+.cheackout .container .row .col-lg-4 .bank-transfer ul li a {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: var(--ff2);
+  color: #444444;
+}
+.cheackout .container .row .col-lg-4 .bank-transfer ul li a i {
+  padding-right: 5px;
+}
+.cheackout .container .row .col-lg-4 .bank-transfer .btn1 {
+  width: 130px;
+  height: 53px;
+  background-color: var(--brand);
+  color: white;
+  font-size: 16px;
+  font-family: var(--ff2);
+  display: block;
+  text-align: center;
+  line-height: 53px;
+  cursor: pointer;
+}
+
+/*==========
+Cheack out css END
 ==============*/
 /*==========
 footer css start
