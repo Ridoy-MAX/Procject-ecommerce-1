@@ -1025,6 +1025,10 @@ About css
   font-weight: 400;
   padding-bottom: 62px;
 }
+.about-us .about h3 a {
+  color: white;
+  cursor: pointer;
+}
 .about-us .about h3 i {
   font-size: 13px;
 }
@@ -1402,6 +1406,7 @@ product css START
 }
 .product .container .row .col-lg-7 .product-details .product-size-color h4 i {
   line-height: 24px;
+  padding-right: 7px;
 }
 .product .container .row .col-lg-7 .product-details .logo {
   margin-top: 55px;
