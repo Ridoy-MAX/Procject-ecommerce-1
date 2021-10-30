@@ -14,6 +14,8 @@
      <link href="css/bootstrap.css" rel="stylesheet">
      <!-- ==========slick-slider-css=========== -->
      <link href="css/slick.css" rel="stylesheet">
+     <!-- ==========light zoom-css=========== -->
+     <link href="css/glassstyle.min.css" rel="stylesheet">
      <!-- ==========xzoom-css=========== -->
      <link href="css/xzoom.css" rel="stylesheet">
       <!-- =========flaticon-css=========== -->
@@ -139,32 +141,42 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5">
-                    <!-- fancy start -->
-                           
-                                <div class="row">
-                                    <div class="large-12 column"><h3>With Fancy Box</h3>Left click while zooming</div>
-                                    <div class="large-5 column">
-                                        <div class="xzoom-container">
-                                            <img class="xzoom" src="imgs/pd1.png" xoriginal="imgs/pd1.png"  />
-
-                                            <div class="xzoom-thumbs">
-                                              <a href="imgs/pd1.png" >
-                                                <img class="xzoom-gallery" width="80" src="imgs/pd1.png"  xpreview="imgs/pd1.png" >
-                                              </a>
-                                              <a href="imgs/pd1.png" >
-                                                <img class="xzoom-gallery" width="80" src="imgs/pd1.png" >
-                                              </a>
-                                              <a href="imgs/pd1.png" >
-                                                <img class="xzoom-gallery" width="80" src="imgs/pd1.png" >
-                                              </a>
-                                              <a href="imgs/pd1.png" >
-                                                <img class="xzoom-gallery" width="80" src="imgs/pd1.png" >
-                                              </a>
-                                            </div>
-                                        </div>          
-                                    </div>
-                                    
-                                </div>
+                    <!-- product slider one -->
+                    <div class="row">
+                      <div class="product-slider1">
+                        <div class="item1">
+                            <img src="imgs/pd1.png" alt="" class="w100 light-zoom">
+                        </div>
+                        <div class="item1">
+                          <img src="imgs/pd2.png" alt="" class="w100 light-zoom">
+                        </div>
+                        <div class="item1">
+                          <img src="imgs/pd3.png" alt="" class="w100 light-zoom">
+                        </div>
+                        <div class="item1">
+                          <img src="imgs/pd4.png" alt="" class="w100 light-zoom">
+                        </div>
+                    
+                      </div>
+                    </div>
+                 <!-- product slider one -->                  
+                 <div class="row">
+                  <div class="product-slider2 mt-3">
+                    <div class="item1">
+                        <img src="imgs/pd1.png" alt="" class="w100">
+                    </div>
+                    <div class="item1">
+                      <img src="imgs/pd2.png" alt="" class="w100">
+                    </div>
+                    <div class="item1">
+                      <img src="imgs/pd3.png" alt="" class="w100">
+                    </div>
+                    <div class="item1">
+                      <img src="imgs/pd4.png" alt="" class="w100">
+                    </div>
+                
+                  </div>
+                </div>
                             
                        <!-- fancy end -->
             </div>
@@ -187,10 +199,33 @@
                     <h3> $ 99.00</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore agna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
                   </div>
+                  
+
+
+
+                  <div class="form-check d-flex">
+                    <p class="mb-0 "> Color	<span class="ps-5"> :</span></p> 
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Chocolate
+                    </label>
+                  </div>
+                  <div class="form-check d-flex">
+                    <p class="mb-0 "> Size	<span> :</span></p> 
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Larg
+                    </label>
+                  </div>
+              
+                 
                   <div class="product-size-color ">
-                   <a class="d-flex"> <p> Color	</p> <h4 class="d-flex">: <i class="fas fa-check-square"></i>   Chocolate </h4></a>
-                   <a class="d-flex"> <p> Size	</p> <h4 class="d-flex">: <i class="far fa-check-square"></i>    Larg </h4></a>
-                   <a class="d-flex"> <p> Quantity	</p> <h4 class="d-flex">:  1 </h4></a>
+                 
+
+                   <a class="d-flex mt-3">
+                   <p class=" last"> Quantity	</p> 
+                  <h4 class="d-flex input">: <input type="number" value="0" min="0" max="100" step="1"/> </h4>
+                  </a>
                     
                    
                   </div>
@@ -223,7 +258,7 @@
                 <!-- about product start-->
         </div>
 <!-- review-details start-->
-        <div class="row">
+        <div class="row mt-5">
           <div class="review-details">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
               <li class="nav-item " role="presentation">
@@ -493,8 +528,8 @@
 
 
 <!--========Our patner START================  -->  
-<section class="our-patner">
-    <div class="container">
+<section class="our-patner ">
+    <div class="container mt-lg-5">
          <div class="patner-slider d-flex justify-content-lg-between">
 
              <div class="banner-item">
@@ -648,6 +683,8 @@
 
     <script src="js/jquery.min.js"></script> 
     <script src="js/bootstrap.bundle.min.js"></script> 
+    <script  src="js/bootstrap-input-spinner.js"></script> 
+    <script  src="js/lightzoom.min.js"></script> 
     <script  src="js/jquery.syotimer.min.js"></script> 
     <script  src="js/jquery.counterup.min.js"></script> 
     <script src="js/venobox.min.js"></script>  

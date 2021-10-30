@@ -1,0 +1,490 @@
+/*================
+first brack point
+================*/
+@media (max-width: 1400px){
+    .Latest-Product .new-product-banner .banner-item .selected-product .product-bg .img {
+      
+        width: 88%;
+    }
+    .Latest-Product .new-product-banner .banner-item .selected-product .product-bg .details {
+        margin-top: 12px;
+        flex-direction: column !important;
+    }
+}
+/*================
+second brack point
+================*/
+@media (max-width: 1324px){
+    .banner .banner-slider .next-arrow {
+      
+        left: 52%;
+      
+    }
+    .Testimonial .testi-bg .testi-banner .banner-item .img {
+        height: 150px;
+        width: 546px;
+       
+    }
+}
+
+/*================
+thrd brack point
+================*/
+
+@media (max-width: 1301px){
+    .Testimonial .testi-bg .testi-banner .banner-item .img {
+        height: 150px;
+        width: 700px;
+       
+    }
+    .heading-top .heading-right ul li a {
+    
+        padding: 0 6px;
+        
+    }
+    .heading-top .heading-left ul li a {
+    
+        padding: 0 6px;
+        
+    }
+    .New-Product .img img {
+       
+        width: 90%;
+    }
+    .Latest-Product .new-product-banner .banner-item .selected-product .product-bg .img {
+        height: 294px;
+        position: relative;
+        cursor: pointer;
+        width: 72%;
+    }
+    .Testimonial .testi-bg .testi-banner .previous-arrow {
+       
+        bottom: -48px;
+      
+    }
+    .Testimonial .testi-bg .testi-banner .next-arrow {
+       
+        bottom: -48px;
+       
+    }
+    .footer-top .footer-sing-up .details ul li {
+        margin-right: 19px;
+    }
+    .Latest-Product .new-product-banner .banner-item .selected-product .product-bg .details {
+        margin-top: 12px;
+        flex-direction: column !important;
+    }
+    .Featured-Products .product-select .tab-content .selected-product .product-bg .img img {
+        height: 82%;
+        width: 100%;
+    }
+    .Featured-Products .product-select .tab-content .selected-product .product-bg .img .overlay {
+       
+        height: 82%;
+      
+    }
+    .Featured-Products .product-select .tab-content .selected-product .product-bg .img .overlay ul li {
+       
+        margin-bottom: 14px;
+   
+        margin-left: 12px;
+       
+    }
+    .Latest-Product .new-product-banner .banner-item .selected-product .product-bg .img .overlay ul li {
+        height: 50px;
+        width: 50px;
+        border: 1px solid white;
+        border-radius: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-left: 7px;
+        transition: 0.3s;
+    }
+    .New-Product .img img {
+        position: absolute;
+        top: 58px;
+        right: 33px;
+    }
+    .our-blog .blog .blog-img .overlay ul li {
+        padding-right: 16px;
+    }
+    .our-blog .blog .blog-img .overlay ul li a {
+        color: #dddddd;
+        font-size: 10px;
+        font-family: var(--ff1);
+    }
+    .Featured-Products .heading-bg h1::before {
+        
+        left: 1%;
+       
+    }
+    .Featured-Products .heading-bg h1::after {
+        
+        left: 1%;
+      
+    }
+    .Latest-Product .heading-bg h1::after {
+       
+       left: 7%;
+       
+    }
+    .Latest-Product .heading-bg h1::before {
+       
+        left: 7%;
+       
+    }
+    .Testimonial .testi-heading h1::after {
+       
+        left: 7%;
+        
+    }
+    .Testimonial .testi-heading h1::before {
+       
+        left: 7%;
+        
+    }
+    .our-blog .blog-heading h1::before {
+       
+        left: 12%;
+    }
+    .our-blog .blog-heading h1::after {
+       
+        left: 12%;
+    }
+}
+/*================
+fouth brack point
+================*/
+
+@media (min-width: 1200px){
+    .Latest-Product .new-product-banner .banner-item .selected-product .product-bg .img .overlay {
+      
+        right: -132px;
+       
+    }
+    .Testimonial .testi-bg .testi-banner .banner-item .img {
+        height: 150px;
+        width: 607px;
+        background-repeat: no-repeat;
+    }
+    .banner-s3 .banner-s3-bg .overlay a {
+      
+        
+        
+    }
+
+}
+@media (max-width: 1200px){
+    .banner-s3 .banner-s3-bg .overlay a {
+      
+        width: 88px;
+        margin-left: 30%;
+        
+    }
+}
+/*================
+5th brack point
+================*/
+@media (max-width: 992px){
+    .banner .banner-slider .next-arrow {
+        left: 54%;
+    }
+    .Featured-Products .heading-bg h1::before {
+        
+        left: 26%;
+       
+    }
+    .Featured-Products .heading-bg h1::after {
+        
+        left: 26%;
+      
+    }
+    .Latest-Product .heading-bg h1::after {
+       
+        left: 30%;
+       
+    }
+    .Latest-Product .heading-bg h1::before {
+       
+        left: 30%;
+
+       
+    }
+    .Testimonial .testi-heading h1::after {
+       
+        left: 37%;
+        
+    }
+    .Testimonial .testi-heading h1::before {
+       
+        left: 37%;
+
+        
+    }
+    .our-blog .blog-heading h1::before {
+       
+        left: 40%;
+    }
+    .our-blog .blog-heading h1::after {
+       
+        left: 40%;
+
+    }
+    .banner-s3 .banner-s3-bg .overlay a {
+      
+        width: 88px;
+        margin-left: 26%;
+        
+    }
+    .New-Product .new-product-details h2 {
+        font-size: 29px;
+      
+    }
+    .New-Product .new-product-details p {
+        font-size: 12px;
+    
+    }
+    .New-Product .lance-date .syotimer__body .syotimer-cell {
+        width: 66px;
+        height: 66px;
+       
+    }
+    .New-Product .lance-date .syotimer__body .syotimer-cell .syotimer-cell__unit {
+        text-align: center;
+        font-size: 14px;
+       
+    }
+    .Testimonial .testi-bg .testi-banner .banner-item .img {
+        height: 150px;
+        width: 416px;
+        background-size: cover;
+    }
+    .our-blog .blog .blog-details p {
+        font-size: 13px;
+       
+    }
+}
+
+
+/*================
+6th brack point
+================*/
+@media (max-width: 768px){
+    .heading-top .heading-left ul li a {
+        display: block;
+        font-size: 11px;
+        font-family: var(--ff1);
+        line-height: 30px;
+      
+    }
+    .heading-top .heading-right ul li a {
+        display: block;
+        font-size: 11px;
+        font-family: var(--ff1);
+        line-height: 30px;
+      
+    }
+    .banner .banner-slider .previous-arrow {
+       
+        left: 45%;
+      
+    }
+    .banner-s3 .banner-s3-bg .overlay {
+        
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .banner-s3 .banner-s3-bg .overlay a {
+        width: 88px;
+        margin-left: 0;
+    }
+    .banner-s3 .banner-s3-bg {
+        position: relative;
+        margin-bottom: 25px;
+    }
+    .Featured-Products .product-select .tab-content .selected-product .product-bg .img {
+        height: 515px;
+        position: relative;
+        cursor: pointer;
+    }
+    .Featured-Products .product-select .tab-content .selected-product .product-bg .img .overlay {
+      
+        right: -183px;
+        width: 30%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.774);
+    }
+    .Featured-Products .product-select .tab-content .selected-product .product-bg .img .overlay ul li {
+        margin-bottom: 14px;
+        margin-left: 48px;
+    }
+    .Featured-Products .product-select .tab-content .selected-product .product-bg .img img {
+        height: 100%;
+        width: 100%;
+    }
+    .Featured-Products .product-select .tab-content .selected-product .product-bg{
+        margin-bottom: 25px;
+    }
+    .New-Product .new-product-details {
+        margin-top: 360px;
+    }
+    .Testimonial .testi-bg .testi-banner .banner-item .img {
+        height: 150px;
+        width: 612px;
+        background-size: cover;
+    }
+    .our-blog .blog  {
+       margin-bottom: 25px;
+    }
+    .Latest-Product .new-product-banner .banner-item .selected-product .product-bg .img .overlay {
+      
+        right: -118px;
+       
+    }
+    .Latest-Product .new-product-banner .banner-item .selected-product {
+        width: 343px;
+    }
+    .Latest-Product .new-product-banner .banner-item .selected-product .product-bg .img .overlay ul li {
+      
+        margin-left: 13px;
+        transition: 0.3s;
+    }
+    .Latest-Product .new-product-banner .banner-item .selected-product .product-bg .img .overlay ul {
+        margin-top: 38px;
+    }
+    .Featured-Products .product-select .tab-content .selected-product .product-bg .img .overlay ul {
+        margin-top: 165px;
+    }
+
+}
+
+/*================
+6th brack point
+================*/
+@media (max-width: 575px){
+    .banner .banner-slider .previous-arrow {
+        left: 39%;
+    }
+    .heading-top .heading-left ul li:first-child a {
+        padding-left: 7px;
+    }
+    .heading-top .heading-left ul li a {
+        display: block;
+        font-size: 9px;
+        font-family: var(--ff1);
+        line-height: 30px;
+        width: 120px;
+    }
+    .heading-top .heading-right ul li a {
+        display: block;
+        font-size: 9px;
+        font-family: var(--ff1);
+        line-height: 30px;
+        width: 120px;
+    }
+    
+    .Featured-Products .heading-bg h1::before {
+        
+        left: 0%;
+       
+    }
+    .Featured-Products .heading-bg h1::after {
+        
+        left: 0%;
+      
+    }
+    .Latest-Product .heading-bg h1::after {
+       
+        left: 3%;
+       
+    }
+    .Latest-Product .heading-bg h1::before {
+       
+        left: 3%;
+
+       
+    }
+    .Testimonial .testi-heading h1::after {
+       
+        left: 22%;
+        
+    }
+    .Testimonial .testi-heading h1::before {
+       
+        left: 22%;
+
+        
+    }
+    .our-blog .blog-heading h1::before {
+       
+        left: 28%;
+    }
+    .our-blog .blog-heading h1::after {
+       
+        left: 28%;
+
+    }  
+    .Latest-Product .new-product-banner .banner-item .selected-product .product-bg .img {
+        height: 354px;
+        position: relative;
+        cursor: pointer;
+        width: 100%;
+    }
+    .Testimonial .testi-bg .testi-banner .banner-item .details p {
+        font-size: 12px;
+        font-family: var(--ff1);
+        font-weight: 400;
+        color: #bbbbbb;
+        line-height: 24px;
+        padding-right: 0px;
+    }
+    .Testimonial .testi-bg .testi-banner .banner-item .details{
+        flex-direction: column !important;
+    }
+    .Testimonial .testi-bg .testi-banner .banner-item .img {
+        height: 130px;
+        width: 805px;
+        background-size: cover;
+    }
+    .Testimonial .testi-bg .testi-banner .banner-item .details img {
+        margin-left: 4%;
+        margin-top: 15px;
+    }
+    .Featured-Products .product-select .tab-content .selected-product .product-bg .img .overlay ul li {
+        margin-bottom: 14px;
+        margin-left: 26px;
+    }
+    .Featured-Products .product-select .tab-content .selected-product .product-bg .img .overlay {
+        right: -183px;
+        width: 30%;
+        height: 92%;
+        background-color: rgba(0, 0, 0, 0.774);
+    }
+    .Featured-Products .product-select .tab-content .selected-product .product-bg .img img {
+        height: 92%;
+        width: 100%;
+    }
+    .New-Product .lance-date .syotimer__body {
+        display: flex;
+        width: 329px;
+    }
+    .New-Product .lance-date .syotimer__body .syotimer-cell {
+        width: 80px;
+        height: 80px;
+        border: 1px solid #222222;
+        border-radius: 2px;
+        margin-right: 8px;
+    }
+    .Featured-Products .product-select .tab-content .selected-product .product-bg .img .overlay ul {
+        margin-top: 165px;
+        margin-left: 24px;
+    }
+    .Latest-Product .new-product-banner .banner-item .selected-product .product-bg {
+        position: relative;
+        overflow: hidden;
+        width: 400px;
+    }
+}
+
+

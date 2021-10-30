@@ -1,20 +1,72 @@
 /*==========
 product css START
 ==============*/
-
+#glass {
+    position: absolute;
+    border-radius: 5% !important;
+    display: none;
+    background-repeat: no-repeat;
+ 
+   background-color: transparent;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     }
 .product{
     margin-bottom: 80px;
     .container{
         .row{
             /*===fancy =====*/
             .col-lg-5{
+               .product-slider1{
+                   .item1{
+                       img{
+                           width: 99%;
+                           height: 548px;
+                           cursor: pointer;
+                        
 
+                       }
+                     
+                   }
+               }
+               .product-slider2{
+                   .item1{
+                       img{
+                           width: 95%;
+                           cursor: pointer;
+                        
+
+                       }
+                   }
+               }
             }
             /*===fancy =====*/
 
             /*===about product start=====*/
             .col-lg-7{
                 .product-details{
+                    .form-check-input:checked {
+                        background-color: #000;
+                        border-color: #000;
+                    }
+                    .form-check{
+                        margin-left: 0px !important;
+                        padding-left: 0;
+                        
+                         .form-check-input {
+                            float: left;
+                            margin-left: 0em;
+                        }
+                        p{
+                          
+                        }
+                        label{
+                        
+                        }
+                        span{
+                            padding-left: 59px;
+                            padding-right: 5px;
+                        }
+                    }
                     .heading{
                         h2{
                            font-size: 20px;
@@ -62,7 +114,12 @@ product css START
                             width: 70px;
                             margin-bottom: 0;
                             line-height: 24px;
+                          
                         }
+                        .last{
+                            line-height: 50px;
+                        }
+
                         h4{
                             font-size: 14px;
                             font-family: var(--ff2);
@@ -76,6 +133,71 @@ product css START
                                 padding-right: 7px;
                             }
                         }
+
+                        .input{
+                            line-height: 50px;
+                            .input-group{
+                                position: relative;
+                                flex-direction: column;
+                                width: 100px;
+                                  margin-left: 5px;
+                                height: 60px !important;
+                              
+                                .btn-minus{
+                                    position: absolute;
+                                    width: 25px !important;
+                                    height: 25px;
+                                    bottom: 11px;
+                                    right: 10px;
+                                    text-align: center;
+                                    border-radius: 0px !important;
+                                    border-top: 0px;
+                                    padding: 0 !important;
+                                    &:hover{
+                                        background-color: var(--brand);
+                                        strong{
+                                            color: white;
+                                        }
+                                    }
+                                    strong{
+                                       font-size: 30px !important;
+                                       line-height: 20px;
+
+                                    }
+     
+                                 }
+                                 .btn-plus{
+                                     position: absolute;
+                                     width: 25px !important;
+                                     height: 25px;
+                                     top: 0;
+                                     right: 10px;
+                                     text-align: center;
+                                     border-radius: 0px !important;
+                                     padding: 0 !important;
+                                     &:hover{
+                                        background-color: var(--brand);
+                                        strong{
+                                            color: white;
+                                        }
+                                    }
+                                     strong{
+                                        font-size: 30px !important;
+                                        line-height: 20px;
+ 
+                                     }
+                                 }
+                                 .form-control{
+                                     position: absolute;
+                                     left: 0;
+                                     height: 49px;
+                                     width: 51px;
+                                     border: 1px solid black;
+                                     border-right: 0px ;
+                                 }
+                            }
+                        }
+                    
                     }
                     .logo{
                         margin-top: 55px;

@@ -39,7 +39,7 @@ $(document).ready(function(){
 
 //new procdut slider start;
 $('.new-product-banner').slick({
-  autoplay: true,
+  // autoplay: true,
   autoplaySpeed: 1800, 
   dots: false,
   slidesToShow: 4,
@@ -51,13 +51,13 @@ $('.new-product-banner').slick({
     {
       breakpoint: 992,
       settings: {
-    
+        slidesToShow: 3,
       }
     },
     {
       breakpoint: 768,
       settings: {
-   
+        slidesToShow: 2,
       }
     },
     {
@@ -91,13 +91,13 @@ $('.new-product-banner').slick({
     {
       breakpoint: 992,
       settings: {
-    
+        slidesToShow: 1,
       }
     },
     {
       breakpoint: 768,
       settings: {
-   
+        slidesToShow: 1,
       }
     },
     {
@@ -159,7 +159,7 @@ $('.new-product-banner').slick({
           {
             breakpoint: 768,
             settings: {
-         
+              slidesToScroll: 2,
             }
           },
           {
@@ -178,24 +178,48 @@ $('.new-product-banner').slick({
         });
          //about patner slider END;
 
-          //Integration with fancybox plugin
-          $('#xzoom-fancy').bind('click', function(event) {
-            var xzoom = $(this).data('xzoom');
-            xzoom.closezoom();
-            $.fancybox.open(xzoom.gallery().cgallery, {padding: 0, helpers: {overlay: {locked: false}}});
-            event.preventDefault();
-        });
+    
+
+         //Integration with fancybox plugin
+        $("input[type='number']").inputSpinner();
+
+
+
+          //Product sliser 1
+
+       $('.product-slider1').slick({
+        autoplay: false,
+        autoplaySpeed: 1800, 
+        dots: false,
        
-        //Integration with magnific popup plugin
-        /* calling script */
-        $(".xzoom").xzoom({tint: '#333', Xoffset: 15});
-        //Example: Integration with FancyBox plugin
-        $('.xzoom').bind('click', function() {
-          var xzoom = $(this).data('xzoom');
-          xzoom.closezoom();
-          $.fancybox.open(xzoom.gallery().cgallery, {padding: 0, helpers: {overlay: {locked: false}}});
-          event.preventDefault();
-        });
+        arrows:false,
+        asNavFor:'.product-slider2',
+        draggable: false,
+       
+
+      });
+             //Product sliser 2
+       $('.product-slider2').slick({
+        autoplay: false,
+        autoplaySpeed: 1800, 
+        dots: false,
+        slidesToShow: 3,
+        arrows:false,
+        asNavFor:'.product-slider1',
+        focusOnSelect: true,
+        draggable: false,
+
+      });
+
+         //Simple usage
+      
+        
+         
+         $('.light-zoom').lightzoom({
+             zoomPower   : 3,    //Default
+             glassSize   : 280,  //Default
+         });
+
 
 
 });      

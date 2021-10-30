@@ -101,6 +101,78 @@ shopping chart css
                     }
                     .quantity1{
                         height: 111px;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        justify-content: center;
+                        
+                        .input{
+                            line-height: 50px;
+                            margin-bottom: 0;
+                            line-height: 111px;
+                            .input-group{
+                                position: relative;
+                                flex-direction: column;
+                                width: 100px;
+                                  margin-left: 5px;
+                                height: 60px !important;
+                              
+                                .btn-minus{
+                                    position: absolute;
+                                    width: 25px !important;
+                                    height: 25px;
+                                    bottom: 11px;
+                                    right: 10px;
+                                    text-align: center;
+                                    border-radius: 0px !important;
+                                    border-top: 0px;
+                                    padding: 0 !important;
+                                    &:hover{
+                                        background-color: var(--brand);
+                                        strong{
+                                            color: white;
+                                        }
+                                    }
+                                    strong{
+                                       font-size: 30px !important;
+                                       line-height: 20px;
+
+                                    }
+     
+                                 }
+                                 .btn-plus{
+                                     position: absolute;
+                                     width: 25px !important;
+                                     height: 25px;
+                                     top: 0;
+                                     right: 10px;
+                                     text-align: center;
+                                     border-radius: 0px !important;
+                                     padding: 0 !important;
+                                     &:hover{
+                                        background-color: var(--brand);
+                                        strong{
+                                            color: white;
+                                        }
+                                    }
+                                     strong{
+                                        font-size: 30px !important;
+                                        line-height: 20px;
+ 
+                                     }
+                                 }
+                                 .form-control{
+                                     position: absolute;
+                                     left: 0;
+                                     height: 49px;
+                                     width: 51px;
+                                     border: 1px solid black;
+                                     border-right: 0px ;
+                                     font-size: 20px;
+                                     font-weight: 500;
+                                 }
+                            }
+                        }
                     }
                 }      
     }
