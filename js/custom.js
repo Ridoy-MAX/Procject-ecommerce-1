@@ -64,8 +64,8 @@ $('.new-product-banner').slick({
       breakpoint: 576,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: false
+       
+       
       }
     }
     // You can unslick at a given breakpoint now by adding:
