@@ -2078,6 +2078,16 @@ footer top
   background-color: #353535;
   padding-bottom: 60px;
 }
+.footer-top .up-to {
+  margin: auto;
+}
+.footer-top .up-to i {
+  font-size: 50px;
+  border-radius: 7px;
+  color: white !important;
+  padding: 4px 10px;
+  background-color: var(--brand);
+}
 .footer-top .footer-details .details p {
   font-size: 14px;
   font-family: var(--ff1);
@@ -2142,6 +2152,20 @@ footer top
 }
 .footer-top .footer-sing-up .details {
   margin-top: 35px;
+}
+.footer-top .footer-sing-up .details .up-to {
+  margin: auto;
+}
+.footer-top .footer-sing-up .details .up-to i {
+  font-size: 34px;
+  border-radius: 7px;
+  color: white !important;
+  padding: 4px 10px;
+  background-color: var(--brand);
+  transition: 0.4s;
+}
+.footer-top .footer-sing-up .details .up-to i:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .footer-top .footer-sing-up .details form .form-control {
   background-color: #353535 !important;

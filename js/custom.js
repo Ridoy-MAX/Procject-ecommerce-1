@@ -1,3 +1,21 @@
+  /*=============== SCROLL REVEAL ANIMATION ===============*/
+  const sr = ScrollReveal({
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    reset: true
+    })
+
+    sr.reveal(`.navbar, .img`,{delay: 400})
+    sr.reveal(`.quality`,{delay: 300})
+    sr.reveal(`.banner-slider, .footer`,{delay: 300, origin: 'top'})
+
+    sr.reveal(`.navbar, .banner, .banner-s2, .Featured-Products`,{origin: 'top', interval: 50})
+    sr.reveal(` .Testimonial, .our-blog, .footer-top`,{origin: 'left', interval: 50})
+
+    sr.reveal(``,{origin: 'top'})
+    sr.reveal(``)
+
 $(document).ready(function(){ 
       //slider start;
     $('.banner-slider').slick({
@@ -39,7 +57,7 @@ $(document).ready(function(){
 
 //new procdut slider start;
 $('.new-product-banner').slick({
-  // autoplay: true,
+   autoplay: true,
   autoplaySpeed: 1800, 
   dots: false,
   slidesToShow: 4,
@@ -159,15 +177,14 @@ $('.new-product-banner').slick({
           {
             breakpoint: 768,
             settings: {
-              slidesToScroll: 2,
+              slidesToShow: 3,
             }
           },
           {
             breakpoint: 576,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1,
-              dots: false
+            
             }
           }
           // You can unslick at a given breakpoint now by adding:
@@ -219,6 +236,8 @@ $('.new-product-banner').slick({
              zoomPower   : 3,    //Default
              glassSize   : 280,  //Default
          });
+ 
+       
 
 
 
